@@ -1,0 +1,43 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{Alvis2011}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Szpyrka},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{2}{%
+      {AGH University of Science}%
+      {Technology}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{\\\texttt{http://fm.ia.agh.edu.pl/alvis:manual}}
+    \field{title}{{On Line Alvis Manual}}
+    \field{langid}{english}
+    \field{year}{2011}
+  \endentry
+\endsortlist
+\endinput
