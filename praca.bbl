@@ -17,6 +17,51 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{AMSFMfPBSaSC}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WZPCHN}{%
+         family={Weiliang\bibnamedelima Zeng},
+         familyi={W\bibinitperiod\bibinitdelim Z\bibinitperiod},
+         suffix={Hideki\bibnamedelima Nakamura},
+         suffixi={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={Peng\bibnamedelima Chen},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WZHNPC1}
+    \strng{fullhash}{WZHNPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A Modified Social Force Model for Pedestrian Behaviour
+  Simulation at Signalized Crosswalks}
+    \field{journaltitle}{Department od Civil Engineering, Nagoya University,
+  Japan}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Asfemwle}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LHXPBHWJGL}{%
+         family={Lei\bibnamedelima Hou},
+         familyi={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+         suffix={Jian-Gou\bibnamedelima Liu},
+         suffixi={J\bibinitperiod-G\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+         given={Xue Pan Bing-Hong\bibnamedelima Wang},
+         giveni={X\bibinitperiod\bibinitdelim P\bibinitperiod
+  B\bibinitperiod-H\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LHJGLXPBHW1}
+    \strng{fullhash}{LHJGLXPBHW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A social force evacuation model with leadership effect}
+    \field{journaltitle}{Department od Civil Engineering, Nagoya University,
+  Japan}
+    \field{year}{2014}
+  \endentry
+
   \entry{Alvis2011}{manual}{}
     \name{author}{1}{}{%
       {{hash=SM}{%
