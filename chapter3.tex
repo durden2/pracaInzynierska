@@ -1,0 +1,53 @@
+\chapter{Opis modelu Social Force}
+\label{cha:OpisSocialForce}
+
+Wykorzystany w pracy model Social Force \cite{GuideCrowdDynViaModifiedSocialForceModel} bazujący na modelu Helbinga \cite{SforceModelForPedDyn} zakłada, że na pieszego działają trzy siły. Desired force $\vec{f_{i}^{0}}$, siła interakcji pomiędzy pieszymi $i$ oraz $j$, $\vec{f_{ij}}$ oraz siła interakcji pomiędzy pieszym $i$, a przeszkodami, $\vec{f_{iw}}$
+
+Siła działająca na każdego z pieszych definiuje się jako:
+
+\begin{equation}
+m_{i} \frac{d\vec{v_{i}}(t)}{dt} = \vec{f_{i}^{0}} + \sum_{j(\neq i)} \vec{f_{ij}} + \sum _{w} \vec{f_{iw}}
+\end{equation}
+
+gdzie
+\begin{eqwhere}[2cm]
+	\item[$m_{i}$] masa pieszego $i$
+	\item[$\vec{v_{i}(t)}$] aktualna prędkość
+\end{eqwhere}
+
+\section{Desired force}
+\label{sec:desiredForce}
+
+Desired force, $\vec{f_{i}^{0}}$ odzwierciedla dążenie danego pieszego $i$ do osiągnięcia preferowanej predkości. Może zostać opisana wzorem:
+
+\begin{equation}
+\vec{f_{i}^{0}} = m_{i} \frac{v_{i}^{0}(t) \vec{e_{i}^{0}} - \vec{v_{i}(t)}}{\tau}
+\end{equation}
+
+gdzie
+\begin{eqwhere}[2cm]
+	\item[$\vec{v_{i}^{0}}$] docelowa prędkość
+	\item[$\vec{e_{i}^{0}}$] kierunek do celu
+	\item[$\tau$] czas relaksacji
+\end{eqwhere}
+	
+
+\section{Interakcja pomiędzy pieszymi}
+\label{sec:interactionBetweenPedestrians}
+
+Desired force, $\vec{f_{i}^{0}}$ odzwierciedla chęć danego pieszego $i$ do osiągnięcia preferowanej predkości. Może zostać opisana wzorem:
+
+\begin{equation}
+\vec{f_{i}^{0}} = m_{i} \frac{v_{i}^{0}(t) \vec{e_{i}^{0}} - \vec{v_{i}(t)}}{\tau}
+\end{equation}
+
+gdzie
+\begin{eqwhere}[2cm]
+	\item[$\vec{v_{i}^{0}}$] docelowa prędkość
+	\item[$\vec{e_{i}^{0}}$] kierunek do celu
+	\item[$\tau$] czas relaksacji
+\end{eqwhere}
+
+\section{Points of intrest}
+\label{sec:pointsOfInterest}
+ Points

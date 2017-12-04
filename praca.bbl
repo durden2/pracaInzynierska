@@ -17,6 +17,29 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{SforceModelForPedDyn}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HD}{%
+         family={Helbing},
+         familyi={H\bibinitperiod},
+         given={Dirk},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Moln\'{a}r},
+         familyi={M\bibinitperiod},
+         given={P\'{e}ter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDMP1}
+    \strng{fullhash}{HDMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Social force model for pedestrian dynamics}
+    \field{year}{1995}
+  \endentry
+
   \entry{AMSFMfPBSaSC}{article}{}
     \name{author}{1}{}{%
       {{hash=WZPCHN}{%
@@ -40,49 +63,40 @@
   \endentry
 
   \entry{Asfemwle}{article}{}
-    \name{author}{1}{}{%
-      {{hash=LHXPBHWJGL}{%
-         family={Lei\bibnamedelima Hou},
-         familyi={L\bibinitperiod\bibinitdelim H\bibinitperiod},
-         suffix={Jian-Gou\bibnamedelima Liu},
-         suffixi={J\bibinitperiod-G\bibinitperiod\bibinitdelim
-  L\bibinitperiod},
-         given={Xue Pan Bing-Hong\bibnamedelima Wang},
-         giveni={X\bibinitperiod\bibinitdelim P\bibinitperiod
-  B\bibinitperiod-H\bibinitperiod\bibinitdelim W\bibinitperiod},
+    \name{author}{4}{}{%
+      {{hash=HL}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LJG}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jian-Gou},
+         giveni={J\bibinitperiod-G\bibinitperiod},
+      }}%
+      {{hash=PX}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Xue},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WBH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Bing-Hong},
+         giveni={B\bibinitperiod-H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{LHJGLXPBHW1}
-    \strng{fullhash}{LHJGLXPBHW1}
+    \strng{namehash}{HL+1}
+    \strng{fullhash}{HLLJGPXWBH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{A social force evacuation model with leadership effect}
     \field{journaltitle}{Department od Civil Engineering, Nagoya University,
   Japan}
     \field{year}{2014}
-  \endentry
-
-  \entry{Alvis2011}{manual}{}
-    \name{author}{1}{}{%
-      {{hash=SM}{%
-         family={Szpyrka},
-         familyi={S\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{organization}{2}{%
-      {AGH University of Science}%
-      {Technology}%
-    }
-    \strng{namehash}{SM1}
-    \strng{fullhash}{SM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{note}{\\\texttt{http://fm.ia.agh.edu.pl/alvis:manual}}
-    \field{title}{{On Line Alvis Manual}}
-    \field{langid}{english}
-    \field{year}{2011}
   \endentry
 \endsortlist
 \endinput
