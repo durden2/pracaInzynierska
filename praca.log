@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.25)  4 DEC 2017 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.25)  4 DEC 2017 22:53
 entering extended mode
 **./praca.tex
 (praca.tex
@@ -1426,8 +1426,7 @@ Package csquotes Info: Redefining alias 'default' -> 'polish'.
 LaTeX Warning: Unused global option(s):
     [11pt].
 
-(praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux) (chapter3.aux)
-(tests.aux))
+(praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux) (chapter3.aux))
 \openout1 = `praca.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
@@ -1443,7 +1442,8 @@ LaTeX Font Info:    ... okay on input line 148.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
 LaTeX Font Info:    ... okay on input line 148.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 148.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1709,31 +1709,13 @@ Rozdzia\l  4.
 LaTeX Warning: Citation 'GuideCrowdDynViaModifiedSocialForceModel' on page 13 u
 ndefined on input line 4.
 
-) [13]
-\openout2 = `tests.aux'.
-
- (tests.tex [14
+[13]) [14] [15
 
 
-
-]
-Rozdzia\l  5.
-[15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16
-
-])
-[17] [18
-
-
-] [19] (praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux)
-(chapter3.aux) (tests.aux))
+] (praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux)
+(chapter3.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -1745,13 +1727,13 @@ Package logreq Info: Writing requests to 'praca.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27337 strings out of 493323
- 505931 string characters out of 3139065
- 773616 words of memory out of 3000000
- 30476 multiletter control sequences out of 15000+200000
+ 27327 strings out of 493323
+ 505850 string characters out of 3139065
+ 774616 words of memory out of 3000000
+ 30473 multiletter control sequences out of 15000+200000
  602589 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,51p,10408b,1724s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,51p,10408b,1713s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1765,9 +1747,9 @@ onts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (19 pages, 251723 bytes).
+Output written on praca.pdf (15 pages, 246984 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

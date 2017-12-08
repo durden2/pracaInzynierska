@@ -35,18 +35,26 @@ gdzie
 \section{Interakcja pomiędzy pieszymi}
 \label{sec:interactionBetweenPedestrians}
 
-Desired force, $\vec{f_{i}^{0}}$ odzwierciedla chęć danego pieszego $i$ do osiągnięcia preferowanej predkości. Może zostać opisana wzorem:
+Siła interakcji pomiędzy pieszymi $i$ oraz $j$, $\vec{f_{ij}}$ składa się z dwóch sił, socilogiczno-psychologicznej oraz fizycznej. 
 
 \begin{equation}
-\vec{f_{i}^{0}} = m_{i} \frac{v_{i}^{0}(t) \vec{e_{i}^{0}} - \vec{v_{i}(t)}}{\tau}
+\vec{f_{ij}} = \vec{f_{ij}^{s}} + \vec{_{ij}^{p}}
+\end{equation}
+
+Pierwsza z nich $\vec{f_{ij}^{s}}$ związana jest z naturalnym ludzkim odruchem utrzymywania dystansu od drugiego człowieka. Przyjmuje ona wartość maksymalną gdy odległość między dwoma pieszymi $d_{ij}$ maleje, a wartość mniejszą w przypadku oddalania się pieszych.
+
+\begin{equation}
+\vec{f_{ij}^{s}} = A_{i} exp[(r_{ij} - d_{}ij) / B_{i}]\vec{n_{ij}}
 \end{equation}
 
 gdzie
 \begin{eqwhere}[2cm]
-	\item[$\vec{v_{i}^{0}}$] docelowa prędkość
-	\item[$\vec{e_{i}^{0}}$] kierunek do celu
-	\item[$\tau$] czas relaksacji
+	\item[$A_{i}$] Moc siły
+	\item[$B_{i}$] Dystans działania siły
+	\item[$\vec{n_{ij}}$] wektor jednostkowy o początku w centrum strefy prywatnej pieszego $i$ a końcu w centrum tej strefy pieszego $j$
 \end{eqwhere}
+
+Druga z sił $\vec{f_{ij}^{p}}$ wywiera nacisk na pieszych w przypadku kiedy odległość pomiędzy pieszymi $d_{ij}$ jest mniejsza od sumy promienia ich stref prywatnych $r_{ij} = r_{i} + r_{j}$
 
 \section{Points of intrest}
 \label{sec:pointsOfInterest}
