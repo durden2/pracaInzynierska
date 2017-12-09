@@ -1,31 +1,37 @@
 \chapter{Wprowadzenie teoretyczne}
 \label{cha:wprowadzenieTeoretyczne}
 
-Z pozoru zachowanie pieszych może wydawać się chaotyczne oraz trudne do przewidzenia. Bazując jednak na badaniach i obserwacjach takie zachowania mają miejsce tylko w skrajnych przypadkach. W codziennym życiu okazuje się, że model do opisu zachowania tłumu może być w dość prosty sposób opisany, głównie dzięki prawdopodobieństwom jakie mogą zostać nakreślone w duży populacjach ludzi. 
+Dziedziny nauki badające ruch pieszych to nie tylko informatyka. Na powstanie modeli miały także wpływ prace uczonych z takich dziedzin jak psychologia, socjologia czy architektura. Problem zachowania tłumu jest skomplikowany i dopiero połączenie tych wszystkich dziedzin dało początek realnemu odzwierciedleniu na ekranie komputera. \\
+Z pozoru zachowanie pieszych może wydawać się chaotyczne oraz trudne do przewidzenia. Bazując jednak na badaniach i obserwacjach takie zachowania mają miejsce tylko w skrajnych przypadkach. W codziennym życiu okazuje się, że model do opisu zachowania tłumu może być w dość prosty sposób opisany, głównie dzięki prawdopodobieństwom jakie mogą zostać nakreślone w dużych populacjach ludzi. Człowiek ma tendencję do podejmowania decyzji na bazie posiadanej już wcześniej, wypracowanej wiedzy na temat otaczającego go środowiska. Oznacza to, że reakcje na innych pieszych oraz przeszkody mogą być w łatwy sposób przewidziane. Analogią do takiego zachowania mogą być przykładowo reakcje profesjonalnego kierowcy wyścigowego, który reaguje na sytuacje drogowe niemal automatycznie. \\
 
+Oczywiście nie jest to prawdą w każdej sytuacji. Przykładowo dzieci oraz turyści wykazują inny sposób poruszania się za względu na to, że zazwyczaj znajdują się w nowym miejscu i nie mają wypracowanej strategii poruszania się. Jednakże dla potrzeb symulacji nie potrzeba dokładnych informacji o każdym z pieszych. W zupełności wystarcza statystyczna wartość konkretnych zachowań
 
-\section{Systemy modelowania ruchu pieszych}
-\label{sec:modeleSymulacji}
+W tym rozdziale zostają przedstawione podstawowe dostępne obecnie modele. Każdy z modeli ma swoje zalety oraz wady, wpływają na to cechy takie jak złożoność obliczeniowa, złożoność implementacji oraz oczywiście cechy otrzymanych rezultatów.
 
-Poniżej przedstawiam różne modele symulacji ruchu pieszych
+\section{Klasyfikacja modeli symulacji ruchu pieszych}
+\label{sec:klasyfikacja}
 
-\subsection{gas-kinetic pedestrian model}
+\subsection{Modele mikroskopowe oraz makrospokope}
 
-W codziennym życiu okazuje się, że model do opisu zachowania tłumu może być w dość prosty sposób opisany, głównie dzięki prawdopodobieństwom jakie mogą zostać nakreślone w duży populacjach ludzi. 
+Modele makroskopowe pokazują w głównej mierze dynamikę gęstości oraz prędkości całego tłumu. W tym celu używane są istniejące już modele fizyczne takie jak dynamika płynów, które zostają odpowiednio dostosowane do potrzeb symulacji. Przykładem może być hydrodynamiczny model Paulusa opierający się na równaniach przepływu \cite{ArchitekturaModelowania}. Modele te nie biorą pod uwagę indywidualnych zachowań jednostki.\\
 
-\subsection{Automaty komórkowe}
+Podejście makrospokowe ze względu na odzwierciedlanie całej populacji sprawdza się w praktyce tylko w wąskim wachlarzu zastosowań.
+ 
+Jako zaletę podejścia makroskopowego możemy z pewnością wskazać mniejszą ilość obliczeń potrzebną do uzyskania porządanego efektu.
 
-Coś o automatach komórkowych
+Modele mikrospokowe, w przeciwieństwie do wspomnianych wyżej modeli makroskopowych, biorą one pod uwagę zachowanie konkretnej jednostki. Badane są interakcje pomiędzy pieszymi oraz ich iteracje z przeszkodami oraz otaczającą rzeczywistością. Modele te pozwalają na uzyskanie efekty bardziej odpowiadającego realnemu zachowaniu tłumu. Jednakże wraz ze wzrostem odwzorowania detali wzrasta również złożoność systemu oraz zwiększa się złożoność obliczeń co skutkuje toeretycznie gorszą wydajnością, jednak przy dostępnej obecnie mocy obliczeniowej nawet standardowych komputerów nie gra to aż takiej roli.
+
+\subsection{Modele ciągłe i dyskretne}
+
+W modelach mikroskopowych możemy wyodrębinić dwie podgrupy: modele ciągłe oraz dyskretne. Modele dyskretne cechują się zmianą paramatrów stanu w konkretnych interwałąch czasowych, przyjmują okręślone wartości dla określonych argumantów i tylko dla nich. W modelach ciągłych stan ulega zmienie przez cały czas działania, może przyjmować dowonlą wartość z całego przedziału. Modele ciągłe reprezentują oczywiście dane w sposób bardziej realistyczny, jednakże zwiększają czas obliczeń \\
+
+Jednym z przykładów na model dyskretny może być automat komórkowy. Uniwersalność automatów komórkowych \textit{Cellular Automata} spowodowała, iż znajdują zastosowanie także w dziedzinie symulacji ruchu pieszych. Automat komórkowy jest modelem matematycznym, który specyfikuje siatka komórek, zbiór stanów jakie mogą one przyjmować, oraz reguły określające stan komórki w chwili $t + 1$. Stan danej komórki zależny jest od stanu komórek z nią sąsiadujących w chwili $t$. \\
+
+Dla stworzenia modeli mikroskopowych używano z początku niehomogenicznych automatów komórkowych. Wraz z rozwojem symulacji na automatach komórkowych można było dostrzec duże zmiany bazowym modelu. Powstające symulacje zaczęły zostać klasyfikowane jako \textbf{sytemy agentowe}.
+
+Niestety jednorodność tej metody uniemożliwia modelowanie bardziej skomplikowanych procesów\cite{FormalizacjaAutomatów}.
+
 %---------------------------------------------------------------------------
-
-\subsection{Social Force model}
-
-Model Social Force zakłada, że piesi w ruchu mogą zostać w prosty sposób opisani za pomocą sił. Siły te pochodzą nie tylko z oddziaływań konkretnego pieszego na otoczenie, ale także z otoczenia na danego pieszego. Wartość, zwrot oraz kierunek finalnej siły jest składową wszystkich sił działających na danego pieszego. Dotychczasowe symulacje komputerowe pokazują, że Model Social Force, pomimo swojej prostoty bardzo realistycznie oddaje rzeczywiste zachowanie się tłumu.
-
-\section{Wybór modelu}
-\label{sec:wyborModelu}
-
-Wybrano model symulacji pieszych bla bla
 
 
 

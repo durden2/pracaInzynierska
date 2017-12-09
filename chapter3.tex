@@ -1,7 +1,19 @@
 \chapter{Opis modelu Social Force}
 \label{cha:OpisSocialForce}
 
-Wykorzystany w pracy model Social Force \cite{GuideCrowdDynViaModifiedSocialForceModel} bazujący na modelu Helbinga \cite{SforceModelForPedDyn} zakłada, że na pieszego działają trzy siły. Desired force $\vec{f_{i}^{0}}$, siła interakcji pomiędzy pieszymi $i$ oraz $j$, $\vec{f_{ij}}$ oraz siła interakcji pomiędzy pieszym $i$, a przeszkodami, $\vec{f_{iw}}$
+Model Social Force \cite{SforceModelForPedDyn}, bezsprzecznie najważniejszym z obecnie dostępnych, jest mikrospokowym modelem ciągłym. Zakłada on, że piesi w ruchu mogą zostać w prosty sposób opisani za pomocą sił. Siły te pochodzą nie tylko z oddziaływań konkretnego pieszego na otoczenie, ale także z otoczenia na danego pieszego. Wartość, zwrot oraz kierunek finalnej siły jest składową wszystkich sił działających na danego pieszego. Dotychczasowe symulacje komputerowe pokazują, że Model Social Force, pomimo swojej prostoty bardzo realistycznie oddaje rzeczywiste zachowanie się tłumu.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{process.eps}
+\caption{Schemat podejmowania decysji przez pieszego, opracowanie własne na bazie \cite{GuideCrowdDynViaModifiedSocialForceModel}}
+\end{figure}
+
+Nie bez znaczenia jest także łatwość uzyskania parametrów oraz wartości potrzebnych do symulacji. Wartości takie jak predkość $\vec{v_{\alpha}}$ czy położenie $\vec{r_{\alpha}}$ danego pieszego $\alpha$ są łatwe do obliczenia, ale także do skalibrowania z danami empirycznymi.
+
+Pierwsze symulacje korzystające z modelu SF były skupione głównie na ewakuacjach budynków, w tego typu sytuacjach celem pieszego jest dojście do wyjścia w możliwie najkrótszym czasie. Obecnie istnieje mnogość modyfikacji modelu, które pozwalają na zamodelowanie większej ilości zachowań. Obecne modyfikacje przewidują przykładowo unikanie "spychania" innych uczestników ruchu poprzez pieszych poruszających się z większą prędkością \cite{6}.
+
+Wykorzystany w pracy model Social Force bazujący na modelu Helbinga \cite{SforceModelForPedDyn} zakłada, że na pieszego działają trzy siły. Desired force $\vec{f_{i}^{0}}$, siła interakcji pomiędzy pieszymi $i$ oraz $j$, $\vec{f_{ij}}$ oraz siła interakcji pomiędzy pieszym $i$, a przeszkodami, $\vec{f_{iw}}$
 
 Siła działająca na każdego z pieszych definiuje się jako:
 
@@ -12,36 +24,63 @@ m_{i} \frac{d\vec{v_{i}}(t)}{dt} = \vec{f_{i}^{0}} + \sum_{j(\neq i)} \vec{f_{ij
 gdzie
 \begin{eqwhere}[2cm]
 	\item[$m_{i}$] masa pieszego $i$
-	\item[$\vec{v_{i}(t)}$] aktualna prędkość
+	\item[$\vec{v}_{i}(t)$] aktualna prędkość
 \end{eqwhere}
 
 \section{Desired force}
 \label{sec:desiredForce}
 
-Desired force, $\vec{f_{i}^{0}}$ odzwierciedla dążenie danego pieszego $i$ do osiągnięcia preferowanej predkości. Może zostać opisana wzorem:
+Bazując na obserwacjach można wywnioskować, że piersi wykazują niechęć do zmiany prędkości oraz kierunku swojej drogi. Zazwyczaj wybierana jest droga, którą można podążać prosto przez jak najdłuższy okres czasu, nawet jeśli drogi alternatywne są takiej samej długości, a droga wybrana przez pieszego jest mocno zatłoczona. Kierunek ruchu obliczany jest na podstawie wzoru:
 
 \begin{equation}
-\vec{f_{i}^{0}} = m_{i} \frac{v_{i}^{0}(t) \vec{e_{i}^{0}} - \vec{v_{i}(t)}}{\tau}
+\vec{e}_{\alpha}(t) = \frac{\vec{r}_{\alpha}^{k} - \vec{r}_{\alpha}(t)}{\parallel \vec{r}_{\alpha}^{k} - \vec{r}_{\alpha}(t) \parallel}
 \end{equation}
 
 gdzie
 \begin{eqwhere}[2cm]
-	\item[$\vec{v_{i}^{0}}$] docelowa prędkość
-	\item[$\vec{e_{i}^{0}}$] kierunek do celu
+	\item[$e_{\alpha}(t)$] aktualna pozycja pieszego $\alpha$ w czasie $t$
+	\item[$\vec{r}_{\alpha}^{k}$] najbliższy punkt na ścieżce do celu
+\end{eqwhere}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{desiredforce.eps}
+\caption{Diagram modelu Social Force, opracowanie własne na bazie \cite{GuideCrowdDynViaModifiedSocialForceModel}}
+\end{figure}
+
+W przypadku kiedy ruch pieszego odbywa się bez przeszkód porusza się on w kierunku pozycji celu, z preferowaną przez siebie prędkością, $\vec{v_{i}^{0}}$. Z powodu działania na pieszego sił z otoczenia obserwuje się dążenie pieszego do osiągnięcia preferowanej przez siebie prędkości w czasie relaksacji $\tau$.
+
+\begin{equation}
+\vec{f}_{i}^{0} = m_{i} \frac{v_{i}^{0}(t) \vec{e_{i}^{0}} - \vec{v_{i}}(t)}{\tau}
+\end{equation}
+
+gdzie
+\begin{eqwhere}[2cm]
+	\item[$\vec{v_{i}^{0}}$] wartość domyślnej prędkości pieszego
+	\item[$\vec{e_{i}^{0}}$] kierunek ruchu jaki pieszy chce osiągnąć
 	\item[$\tau$] czas relaksacji
 \end{eqwhere}
 	
+Jest to tzw. \textit{desired speed}, odzwierciedla ona dążenie danego pieszego $i$ do osiągnięcia preferowanej prędkości.
+
+Domyślna prędkość pieszego przyjmuje zazwyczaj wartość około $1.34 \frac{m}{s^{2}}$ z odchyleniem standardowym $0.26 \frac{m}{s^{2}}$ \cite{HeBuAjTw}
 
 \section{Interakcja pomiędzy pieszymi}
 \label{sec:interactionBetweenPedestrians}
 
-Siła interakcji pomiędzy pieszymi $i$ oraz $j$, $\vec{f_{ij}}$ składa się z dwóch sił, socilogiczno-psychologicznej oraz fizycznej. 
+Naturalnym jest, że kiedy zbliżamy się do innych uczestników ruchu czujemy się niekomfortowo. Piesi, aby uniknąć wypadków utrzymują dystans pomiędzy innymi uczestnikami ruchu oraz przeszkodami. Dystans ten zmniejsza się w przypadku kiedy pieszy śpieszy się oraz kiedy wzrasta gęstość tłumu. Gęstość tłumu zwiększa się w szczególności kiedy piesi znajdują się w okolicy miejsc wywierających zainteresowanie oraz w wąskich przejściach. Siła interakcji pomiędzy pieszymi $i$ oraz $j$, $\vec{f_{ij}}$ definiowana jest jako suma dwóch sił, socjologiczno-psychologicznej oraz fizycznej. Piesi mogą także formować grupy, których zachowanie można później sprowadzić do opisu pojedynczego agenta \cite{HeBuAjTw}
 
 \begin{equation}
 \vec{f_{ij}} = \vec{f_{ij}^{s}} + \vec{_{ij}^{p}}
 \end{equation}
 
 Pierwsza z nich $\vec{f_{ij}^{s}}$ związana jest z naturalnym ludzkim odruchem utrzymywania dystansu od drugiego człowieka. Przyjmuje ona wartość maksymalną gdy odległość między dwoma pieszymi $d_{ij}$ maleje, a wartość mniejszą w przypadku oddalania się pieszych.
+
+Druga z sił $\vec{f_{ij}^{p}}$ wywiera nacisk na pieszych kiedy dystans pomiędzy dwoma pieszymi, $d_{}ij$ jest mniejszy od sumy promieni ich stref prywatnych $r_{ij} = r_{i} + r_{j}$. Siła ta składa się z "body force", $\vec{f} _{ij}^{p_{1}}$ oraz "slifing friction force", $\vec{f} _{ij}^{p_{2}}$.
+
+\begin{equation}
+\vec{f_{ij}} = \vec{f}_{ij}^{s} + \vec{f}_{ij}^{p}
+\end{equation}
 
 \begin{equation}
 \vec{f_{ij}^{s}} = A_{i} exp[(r_{ij} - d_{}ij) / B_{i}]\vec{n_{ij}}
@@ -54,8 +93,18 @@ gdzie
 	\item[$\vec{n_{ij}}$] wektor jednostkowy o początku w centrum strefy prywatnej pieszego $i$ a końcu w centrum tej strefy pieszego $j$
 \end{eqwhere}
 
-Druga z sił $\vec{f_{ij}^{p}}$ wywiera nacisk na pieszych w przypadku kiedy odległość pomiędzy pieszymi $d_{ij}$ jest mniejsza od sumy promienia ich stref prywatnych $r_{ij} = r_{i} + r_{j}$
+\begin{equation}
+\vec{f}_{ij}^{p} = kg(r_{ij} - d_{ij}) \vec{n}_{ij} + \kappag (r_{ij} - d_{ij}) \delta v _{ij}^{t} \vec{t}_{ij}
+\end{equation}
 
-\section{Points of intrest}
-\label{sec:pointsOfInterest}
- Points
+gdzie
+\begin{eqwhere}[2cm]
+	\item[$k$] - body compression coefficient
+	\item[$\kappa$] - Coeficient of sliding friction
+	\item[$\vec{n}_{ij}$] - wektor jednostkowy o początku w pozycji pieszego $i$ a końcu w pozycji pieszego $j$
+	\item[$\delta v_{ij}^{t} * \vec{t}_{ij}$] - zmiana prędkości wzdłuż stycznej do eliptycznego pola strefy prywatnej
+\end{eqwhere}
+
+\begin{equation}
+g(x) = \lbrace {0, if x < 0, x if x \geq 0.}
+\end{equation}
