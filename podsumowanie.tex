@@ -2,9 +2,20 @@
 \label{cha:podsumowanie}
 
 \section{Wnioski}
+
+
 \section{Napotkane problemy}
 
-W trakcie napotkałem
+Istnieje wiele publikacji dotyczących tematyki ruchu pieszych. Jednakże, większość z publikacji nie porusza całości problemu. Zazwyczaj opis dotyczy części problemu postawionego w niniejszej pracy. Ciężko jest doszukać się kompleksowego wytłumaczenia wszystkich zjawisk takich jak formowanie strug czy unikanie kolizji w obrębie jednego zaproponowanego modelu.
 
-problem z astarem i heaperm
-problem z brakiem opisuj implementacji
+W trakcie tworzenia pracy autor napotkał następujące problemy:
+
+\begin{itemize}
+\item wydajność algorytmu A* do wyznaczania optymalnych ścieżek przejścia. Implementacja samego algorytmu nie należy do najbardziej skomplikowanych. Scieżki zostały łatwo wyznaczone, jednakże problem pojawił się przy testach dla większej ilości agentów. Poprzez reprezentacje tablicową dwóch zbiorów \textit{open set} oraz \textit{close set} potrzebnych do działania algorytmu czas wyszukiwania ścieżki na mapie z ilością węzłów około $480000$ wynosił około 10 sekund. Jest to czas wysoce odbiegający od potrzeb symulacji. Poprzez reprezentację zbiorów jako stos czas ten skrócił się do koło 100-200 ms dla takiej samej ilości węzłów. Czas wyszukiwanie zależny jest w szczególności od ilości punków węzłowych, ale także od odległości punktu początkowego od końcowego oraz ilości przeszkód.
+
+\item w praktyce wszystkie publikacje poruszające temat symulacji skupiają się w dużej mierze na opisie modelu, nie dotykają tematyki samej symulacji. Jednym z największych problemów było zastosowanie wybranego modelu do symulacji.
+\end{itemize}
+
+\section{Kierunki dalszych prac}
+
+Temat symulacji ruchu pieszych jest bardzo rozległy. 

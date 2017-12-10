@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  9 DEC 2017 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  10 DEC 2017 16:10
 entering extended mode
 **./praca.tex
 (praca.tex
@@ -2036,21 +2036,20 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 164.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 164.
- (praca.toc)
-\tf@toc=\write6
-\openout6 = `praca.toc'.
+ (praca.toc
+Underfull \vbox (badness 1701) has occurred while \output is active []
 
  [5
 
-]
+])
+\tf@toc=\write6
+\openout6 = `praca.toc'.
+
+
+[6]
 \openout2 = `chapter1.aux'.
 
-
-(chapter1.tex [6
-
-
-
-]
+ (chapter1.tex
 Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -2067,57 +2066,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
 Underfull \vbox (badness 5008) has occurred while \output is active []
 
- [7])
-[8]
-\openout2 = `wykazOznaczen.aux'.
-
- (wykazOznaczen.tex
-Rozdzia\l  2.
-) [9
+ [7
 
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
+[9]
+\openout2 = `wykazOznaczen.aux'.
+
+ (wykazOznaczen.tex [10
+
+
+
+]
+Rozdzia\l  2.
+) [11]
 \openout2 = `chapter2.aux'.
 
- (chapter2.tex [10
+ (chapter2.tex [12
 
 
 
 ]
 Rozdzia\l  3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
-
-LaTeX Warning: Citation 'ArchitekturaModelowania' on page 11 undefined on input
- line 16.
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 16--17
-[]\T1/ptm/m/n/12 Modele ma-kro-sko-powe po-ka-zuj¡ w gªów-nej mie-rze dy-na-mik
-¦ g¦-sto-±ci oraz pr¦d-
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 16--17
-\T1/ptm/m/n/12 ko-±ci ca-ªego tªumu. W tym celu u»y-wane s¡ ist-nie-j¡ce ju» mo
--dele fi-zyczne ta-kie jak
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -2127,24 +2109,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-[12]
 
-LaTeX Warning: Citation 'FormalizacjaAutomat\IeC {\'o}w' on page 13 undefined o
+LaTeX Warning: Citation 'FormalizacjaAutomat\IeC {\'o}w' on page 14 undefined o
 n input line 32.
 
-) [13]
+) [14] [15]
 \openout2 = `chapter5.aux'.
 
- (chapter5.tex [14
+ (chapter5.tex [16
 
 
 
 ]
 Rozdzia\l  4.
-) [15]
+) [17]
 \openout2 = `chapter3.aux'.
 
- (chapter3.tex [16
+ (chapter3.tex [18
 
 
 
@@ -2160,7 +2141,7 @@ Package epstopdf Info: Source file: <img/process.eps>
 o.pdf img/process.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<img/process-eps-converted-to.pdf, id=68, 599.23875pt x 840.13875pt>
+<img/process-eps-converted-to.pdf, id=74, 599.23875pt x 840.13875pt>
 File: img/process-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/process-eps-converted-to.pdf>
@@ -2170,22 +2151,10 @@ Package pdftex.def Info: img/process-eps-converted-to.pdf used on input line 8.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
 
-
-LaTeX Warning: Citation 'GuideCrowdDynViaModifiedSocialForceModel' on page 17 u
-ndefined on input line 9.
-
-
-LaTeX Warning: Citation 'GuideCrowdDynViaModifiedSocialForceModel' on page 17 u
-ndefined on input line 9.
-
-
-LaTeX Warning: Citation '6' on page 17 undefined on input line 14.
-
-
 Underfull \vbox (badness 1603) has occurred while \output is active []
 
- [17]
-[18 <./img/process-eps-converted-to.pdf>]
+ [19]
+[20 <./img/process-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/desiredforce.eps>
 (epstopdf)                    date: 2017-12-09 13:36:23
 (epstopdf)                    size: 831722 bytes
@@ -2197,92 +2166,133 @@ ted-to.pdf img/desiredforce.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/desiredforce-eps-converted-to.pdf, id=86, 443.6575pt x 374.39874pt>
+<img/desiredforce-eps-converted-to.pdf, id=93, 443.6575pt x 374.39874pt>
 File: img/desiredforce-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/desiredforce-eps-converted-to.pdf>
 Package pdftex.def Info: img/desiredforce-eps-converted-to.pdf used on input li
 ne 47.
 (pdftex.def)             Requested size: 227.62206pt x 192.0834pt.
-
-
-LaTeX Warning: Citation 'GuideCrowdDynViaModifiedSocialForceModel' on page 19 u
-ndefined on input line 48.
-
-
-LaTeX Warning: Citation 'GuideCrowdDynViaModifiedSocialForceModel' on page 19 u
-ndefined on input line 48.
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 48--48
-[]\T1/ptm/b/n/10.95 Rys. 5.2. |\T1/ptm/m/n/10.95 Dia-gram mo-delu So-cial Force
-, opra-co-wa-nie wªa-sne na ba-zie
- []
-
-[19 <./img/desiredforce-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation 'HeBuAjTw' on page 20 undefined on input line 66.
-
-
-LaTeX Warning: Citation 'HeBuAjTw' on page 20 undefined on input line 71.
-
-[20]
+ [21 <./img/desiredforce-eps-converted-to.pdf>] [22]
 ! Undefined control sequence.
 l.97 ...kg(r_{ij} - d_{ij}) \vec{n}_{ij} + \kappag
-                                                   (r_{ij} - d_{ij}) \delta ...
+                                                   (r_{ij} - d_{ij}) \Delta ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [21]
+) [23]
 \openout2 = `chapter4.aux'.
 
- (chapter4.tex [22
+ (chapter4.tex [24
 
 
 
 ]
 Rozdzia\l  6.
 
-LaTeX Warning: Citation '6' on page 23 undefined on input line 21.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [23]
+ [25]
+
+LaTeX Warning: Citation 'Collision' on page 26 undefined on input line 31.
+
+Package epstopdf Info: Source file: <img/kolizjaczolowa.eps>
+(epstopdf)                    date: 2017-12-09 19:35:46
+(epstopdf)                    size: 530834 bytes
+(epstopdf)             Output file: <img/kolizjaczolowa-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-12-09 19:36:16
+(epstopdf)                    size: 17102 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/kolizjaczolowa-eps-conv
+erted-to.pdf img/kolizjaczolowa.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+<img/kolizjaczolowa-eps-converted-to.pdf, id=124, 218.8175pt x 58.2175pt>
+File: img/kolizjaczolowa-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/kolizjaczolowa-eps-converted-to.pdf>
+Package pdftex.def Info: img/kolizjaczolowa-eps-converted-to.pdf used on input 
+line 48.
+(pdftex.def)             Requested size: 182.09486pt x 48.44753pt.
+Package epstopdf Info: Source file: <img/kolizjaboczna.eps>
+(epstopdf)                    date: 2017-12-09 19:35:58
+(epstopdf)                    size: 551382 bytes
+(epstopdf)             Output file: <img/kolizjaboczna-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-12-09 19:36:16
+(epstopdf)                    size: 19544 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/kolizjaboczna-eps-conve
+rted-to.pdf img/kolizjaboczna.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/kolizjaboczna-eps-converted-to.pdf, id=125, 174.6525pt x 106.3975pt>
+File: img/kolizjaboczna-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/kolizjaboczna-eps-converted-to.pdf>
+Package pdftex.def Info: img/kolizjaboczna-eps-converted-to.pdf used on input l
+ine 58.
+(pdftex.def)             Requested size: 182.09486pt x 110.93814pt.
+ [26 <./img/kolizjaczolowa-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/kolizjatylna.eps>
+(epstopdf)                    date: 2017-12-09 19:36:05
+(epstopdf)                    size: 516626 bytes
+(epstopdf)             Output file: <img/kolizjatylna-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-12-09 19:36:17
+(epstopdf)                    size: 14955 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/kolizjatylna-eps-conver
+ted-to.pdf img/kolizjatylna.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/kolizjatylna-eps-converted-to.pdf, id=133, 157.58875pt x 58.2175pt>
+File: img/kolizjatylna-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/kolizjatylna-eps-converted-to.pdf>
+Package pdftex.def Info: img/kolizjatylna-eps-converted-to.pdf used on input li
+ne 73.
+(pdftex.def)             Requested size: 182.09486pt x 67.27472pt.
+) [27 <./img/kolizjaboczna-eps-converted-to.pdf> <./img/kolizjatylna-eps-conver
+ted-to.pdf>]
 \openout2 = `srodowisko.aux'.
 
- (srodowisko.tex [24
+ (srodowisko.tex
+[28
 
 
 
 ]
 Rozdzia\l  7.
-) [25]
+) [29]
 \openout2 = `testy.aux'.
 
- (testy.tex [26
+ (testy.tex [30
 
 
 
 ]
 Rozdzia\l  8.
-) [27]
+) [31]
 \openout2 = `podsumowanie.aux'.
 
- (podsumowanie.tex [28
+ (podsumowanie.tex [32
 
 
 
 ]
 Rozdzia\l  9.
-) [29] [30
+) [33] [34
 
 
-] [31] (praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux)
+] [35] (praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux)
 (chapter5.aux) (chapter3.aux) (chapter4.aux) (srodowisko.aux) (testy.aux)
 (podsumowanie.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2294,10 +2304,10 @@ Package logreq Info: Writing requests to 'praca.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46978 strings out of 493323
- 1054297 string characters out of 3139063
- 1372486 words of memory out of 3000000
- 49743 multiletter control sequences out of 15000+200000
+ 47003 strings out of 493323
+ 1055252 string characters out of 3139063
+ 1373486 words of memory out of 3000000
+ 49765 multiletter control sequences out of 15000+200000
  605387 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,17n,100p,10408b,2017s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2315,9 +2325,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2
 mb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (31 pages, 323270 bytes).
+Output written on praca.pdf (35 pages, 378017 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
+ 218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

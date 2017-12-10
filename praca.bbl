@@ -17,29 +17,6 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
-  \entry{SforceModelForPedDyn}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HD}{%
-         family={Helbing},
-         familyi={H\bibinitperiod},
-         given={Dirk},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=MP}{%
-         family={Moln\'{a}r},
-         familyi={M\bibinitperiod},
-         given={P\'{e}ter},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HDMP1}
-    \strng{fullhash}{HDMP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Social force model for pedestrian dynamics}
-    \field{year}{1995}
-  \endentry
-
   \entry{AMSFMfPBSaSC}{article}{}
     \name{author}{1}{}{%
       {{hash=WZPCHN}{%
@@ -97,6 +74,128 @@
     \field{journaltitle}{Department od Civil Engineering, Nagoya University,
   Japan}
     \field{year}{2014}
+  \endentry
+
+  \entry{SforceModelForPedDyn}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HD}{%
+         family={Helbing},
+         familyi={H\bibinitperiod},
+         given={Dirk},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Moln\'{a}r},
+         familyi={M\bibinitperiod},
+         given={P\'{e}ter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDMP1}
+    \strng{fullhash}{HDMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Social force model for pedestrian dynamics}
+    \field{year}{1995}
+  \endentry
+
+  \entry{ArchitekturaModelowania}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KKJW}{%
+         family={Konrad\bibnamedelima Kułakowski},
+         familyi={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={Jarosław\bibnamedelima Wąs},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KKJW1}
+    \strng{fullhash}{KKJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Architektura systemu modelowania dynamiki pieszych}
+    \field{year}{2009}
+  \endentry
+
+  \entry{GuideCrowdDynViaModifiedSocialForceModel}{article}{}
+    \name{author}{5}{}{%
+      {{hash=YX}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Xiaoxia},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Hairong},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Qianling},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Xiaoming},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YX+1}
+    \strng{fullhash}{YXDHWQCYHX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Guided crowd dynamics via modified social force model}
+    \field{year}{2014}
+  \endentry
+
+  \entry{6}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FJATAP}{%
+         family={Fredrik\bibnamedelima Johansson},
+         familyi={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+         suffix={Anders\bibnamedelima Peterson},
+         suffixi={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Andreas\bibnamedelima Tapani},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FJAPAT1}
+    \strng{fullhash}{FJAPAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Waiting Pedestrians in Social Force Model}
+    \field{year}{2015}
+  \endentry
+
+  \entry{HeBuAjTw}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HDJAWTBL}{%
+         family={Helbing\bibnamedelima D.},
+         familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+         suffix={Buzna\bibnamedelima L},
+         suffixi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Johansson A Werner\bibnamedelima T},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod
+  W\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDBLJAWT1}
+    \strng{fullhash}{HDBLJAWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Self-Organized Pedestrian Crowd Dynamics: Experiments,
+  Simulations, and Design Solutions}
+    \field{journaltitle}{Transportation Science}
+    \field{year}{2005}
   \endentry
 \endsortlist
 \endinput
