@@ -1,16 +1,17 @@
 \chapter{Wyznaczenie ścieżki}
+\label{wyznaczenieSciezki}
 
-Wyznaczenie najkrótrzych ścieżek w grafie jest jednym z podstawowych problemów w teorii grafów. Algorytmy wyszukiwania ścieżek mają wielorakie zastosowanie począwszy od wyznaczenia najkrótszych tras na mapie poprzez przesyłania wiadomości przez sieć routerów kończąc na wyznaczeniu połączeń lotniczych o najmniejszym koszcie. Wynikiem działania algorytmów jest uporządkowany zbiór wierzchołków, które musimy kolejno przejść, aby dotrzeć do wyznaczonego wcześniej celu.
+Wyznaczenie najkrótszych ścieżek w grafie jest jednym z podstawowych problemów w teorii grafów. Algorytmy wyszukiwania ścieżek mają wielorakie zastosowanie począwszy od wyznaczenia najkrótszych tras na mapie, poprzez przesyłanie wiadomości przez sieć routerów, kończąc na wyznaczaniu połączeń lotniczych o najmniejszym koszcie. Wynikiem działania algorytmów wyznaczania ścieżek, jest uporządkowany zbiór wierzchołków, którymi należy kolejno podążać, aby dotrzeć do wyznaczonego wcześniej celu.
 
 Algorytmów wyszukiwania ścieżek jest bardzo wiele, najważniejsze z nich to:
 
 \begin{itemize}
-\item Algorytm Djikstry - jest przykładem algorytmu zachłannego. Jeden z najbardziej rozpowszechnionych algorytmów do przeszukiwania ścieżek. Jego złożoność obliczeniowa rośnie w miarę wzrostu punktów węzłowych.
-\item A*
-\item Algorytm Fleury'ego
-\item Bellmana-Forda - ma zastosowanie, kiedy niektóre krawędzie w grafie mają ujemne wagi
-\item Algorytm Floyda-Warshalla - 
-\item Algorytm A*
-\item Przeszukiwanie wszrze BFS
+\item Algorytm Dijkstry - przykład algorytmu zachłannego. Jeden z najbardziej rozpowszechnionych algorytmów w dziedzinie przeszukiwania ścieżek. Jego złożoność obliczeniowa rośnie w miarę wzrostu punktów węzłowych,
+\item Algorytm A* - algorytm wykorzystany w pracy. Jest to rozszerzona wersja algorytmu Djikstry. Dzięki zastosowaniu heurystyki skraca się czas obliczeń,
+\item Algorytm Bellmana-Forda - ma zastosowanie, kiedy niektóre krawędzie w grafie mają ujemne wagi
+\item Algorytm Floyda-Warshalla - pozwala na odnalezienie najkrótszych ścieżek pomiędzy wszystkimi parami wierzchołków w grafie,
+\item Przeszukiwanie wszerz BFS - najprostszy z algorytmów, nie uwzględnia wag ścieżek,
 \item Przeszukiwanie wgłąb DFS
 \end{itemize}
+
+Spośród wymienionych algorytmów implementacji symulacji został użyty algorytm A*. Gwarantuje on zawsze znalezienie optymalnej ścieżki jeśli tylko istnieje. Nie jest on też zbytecznie złożony obliczeniowo

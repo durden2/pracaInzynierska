@@ -8,12 +8,13 @@
 \contentsline {chapter}{\numberline {2}Wykaz wa\IeC {\.z}niejszych oznacze\IeC {\'n}}{11}
 \contentsline {chapter}{\numberline {3}Wprowadzenie teoretyczne}{13}
 \contentsline {section}{\numberline {3.1}Klasyfikacja modeli symulacji ruchu pieszych}{13}
-\contentsline {subsection}{\numberline {3.1.1}Modele mikroskopowe oraz makrospokope}{13}
+\contentsline {subsection}{\numberline {3.1.1}Modele mikroskopowe oraz makroskopowe}{13}
 \contentsline {subsection}{\numberline {3.1.2}Modele ci\IeC {\k a}g\IeC {\l }e i dyskretne}{14}
 \contentsline {chapter}{\numberline {4}Wyznaczenie \IeC {\'s}cie\IeC {\.z}ki}{17}
 \contentsline {chapter}{\numberline {5}Opis modelu Social Force}{19}
 \contentsline {section}{\numberline {5.1}Desired force}{21}
 \contentsline {section}{\numberline {5.2}Interakcja pomi\IeC {\k e}dzy pieszymi}{22}
+\contentsline {section}{\numberline {5.3}Zalety oraz wady Modelu Social Foce}{23}
 \contentsline {chapter}{\numberline {6}Charakterystyka ruchu pieszych}{25}
 \contentsline {section}{\numberline {6.1}Points of intrest}{25}
 \contentsline {section}{\numberline {6.2}Strefa prywatna}{25}

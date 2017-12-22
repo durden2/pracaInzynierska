@@ -17,6 +17,64 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{terrorism}{article}{}
+    \name{author}{1}{}{%
+      {{hash=fLECEUA}{%
+         prefix={for},
+         prefixi={f\bibinitperiod},
+         family={Law Enforcement\bibnamedelima Cooperation},
+         familyi={L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+         given={Europol Union\bibnamedelima Agency},
+         giveni={E\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LECEUAf1}
+    \strng{fullhash}{LECEUAf1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Terrorism Situation and Trends Raport}
+    \field{year}{2017}
+  \endentry
+
+  \entry{hillsborough}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Hillsborough disaster}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Hillsborough_disaster
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{lovedisaster}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Love Parade disaster}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Love_Parade_disaster
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{metodologiaZachowan}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DKRBR}{%
+         family={Drogowego},
+         familyi={D\bibinitperiod},
+         given={Krajowa Rada Bezpieczeństwa\bibnamedelima Ruchu},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod
+  B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DKRBR1}
+    \strng{fullhash}{DKRBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Metodologia systematycznych badań zachowań pieszych i
+  relacji pieszykierowca wraz z przeprowadzeniem badań pilotażowych}
+    \field{year}{2015}
+  \endentry
+
   \entry{AMSFMfPBSaSC}{article}{}
     \name{author}{1}{}{%
       {{hash=WZPCHN}{%
@@ -97,6 +155,42 @@
     \field{labeltitlesource}{title}
     \field{title}{Social force model for pedestrian dynamics}
     \field{year}{1995}
+  \endentry
+
+  \entry{relativeVelocity}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GY}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LPB}{%
+         family={Luh},
+         familyi={L\bibinitperiod},
+         given={Peter\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zang},
+         familyi={Z\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Teo},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GY+1}
+    \strng{fullhash}{GYLPBZHCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A modified social force model considering relative velocity
+  of pedestrians}
+    \field{year}{2013}
   \endentry
 
   \entry{ArchitekturaModelowania}{article}{}
@@ -196,6 +290,35 @@
   Simulations, and Design Solutions}
     \field{journaltitle}{Transportation Science}
     \field{year}{2005}
+  \endentry
+
+  \entry{Collision}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FC}{%
+         family={Foudil},
+         familyi={F\bibinitperiod},
+         given={Charif},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sanza},
+         familyi={S\bibinitperiod},
+         given={C\'{e}dric},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DY}{%
+         family={Duthen},
+         familyi={D\bibinitperiod},
+         given={Yves},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FCSCDY1}
+    \strng{fullhash}{FCSCDY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Path Finding and Collision Avoidance in Crowd Simulation}
+    \field{year}{2009}
   \endentry
 \endsortlist
 \endinput
