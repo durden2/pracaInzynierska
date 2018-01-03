@@ -3,45 +3,53 @@
 
 \section{Points of intrest}
 \label{sec:pointsOfInterest}
- Points
+
+Pieszy nigdy nie porusza się tylko i wyłącznie z punktu A do punktu B. Często po drodze zatrzymujemy się w sklepie czy oglądając reklamy. Biorąc pod uwagę takie zachowania wyróżnione zostały punkty POI (\textit{ang. Points of intrests}). Agent może dokonać wyboru danego punktu (bądź nie) po czym jego aktualny stan zmiana się odpowiednio z ruchu na stan oczekiwania lub odwrotnie. Wprowadzenie takiej zależności pozwala zaimplementować ruch bardziej realistycznie. Przy POI wzrasta gęstość tłumu, przez ścieżki ruchu innych uczestników ruchu ulegają zmianie.
  
 \section{Strefa prywatna}
 \label{sec:strefaPryw}
 
-Dla każdego pieszego definiuje się opisaną wcześniej strefę prywatna.
-Im bliżej przeszkody lub innego agenta, tym pieszy czuje się mniej komfortowo i utrzymuje dystans od sąsiada zależny od konkretnej sytuacji. Strefa prywatna pomaga unikać kolizji w przypadkach nagłej zmiany prędkości przez innych uczestników ruchu.
+Dla każdego pieszego definiuje się opisaną wcześniej strefę prywatną. Im bliżej przeszkody lub innego agenta, tym pieszy czuje się mniej komfortowo i utrzymuje dystans od sąsiada, zależny od konkretnej sytuacji. Strefa prywatna pomaga unikać kolizji w przypadkach nagłej zmiany prędkości przez innych uczestników ruchu.
 
 \section{Czas relaksacji}
 \label{sec:czasRelaksacji}
 
-Piesi zmieniając kierunek swojej drogi potrzebują pewien (niewielki) czas na podjęcie decyzji. Z tego względu we wzorze został wprowadzony \textit{czas realaksacji}. Wartość przyjęta w symulacji to $0.5 sek$
+Piesi zmieniając kierunek swojej drogi potrzebują pewną (niewielką) ilość czasu na podjęcie decyzji. Z tego względu we wzorze został wprowadzony \textit{czas relaksacji}. Wartość przyjęta w symulacji to $0.5 sek$
 
 \section{Czekający piesi}
 \label{sec:czekajacyPiesi}
 
-Czekający piesie są częstymi uczestnikami normalnego ruchu. Często zatrzymujemy się, aby porozmawiać przez telefon, zawiązać sznurowadła czy w oczekiwaniu na przyjazd windy. Czekający piesi mogą powodować korki \cite{6}. Modelowanie czekających pieszych ma dwa aspekty: reakcje  przechodzących obok pieszych na pozostającego w spoczynku oraz pozosrającego w spoczynku na poruszających się.
+Czekający piesi są częstymi uczestnikami normalnego ruchu. Czekający piesi mogą powodować korki \cite{6}. Modelowanie czekających pieszych ma dwa aspekty: reakcje  przechodzących obok pieszych na pozostającego w spoczynku oraz pozostającego w spoczynku na poruszających się.
 
 \section{Formowanie strug}
 \label{sec:strugi}
 
+Bazując na pracy \cite{HeBuAjTw} zakłada się, że piesi preferują ruch za innym z pieszych. W szczególności taki zachowanie może zostać zaobserwowane, kiedy die strugi pieszych przemieszczają się w przeciwnych kierunkach. Jest to spowodowane mniejszymi interakcjami z innymi uczestnikami ruchu oraz tym, że przerwanie strugi pieszych zdarza się stosunkowo rzadko.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{line.png}
+\caption{Formowanie strug, opracowanie \cite{HeBuAjTw}}
+\end{figure}
+
 \section{Unikanie Kolizji}
 \label{sec:kolizje}
 
-Podczas każdej zmiany położenia podczas symulacji należy sprawdzić czy po przejściu nie dojdzie do kolizji z innymi uczestnikami ruchu czy przeszkodami. Jeśli dojdzie do kolizji należy sprawdzić jakiego jest ona typu i dostosować do niej zachowanie. Do kolizji może dość w przypadku kiedy dwoje pieszych w następnym kroku mają przejść na to samo miejsce lub kiedy zamieniają się miejscami. Każda z kolizji wymaga podjęcia innych kroków, aby jej uniknąć. Po uniknięciu kolizji pieszy powinien powrócić do swojej pierwotnej ścieżki ruchu. Każdy z pieszych ma także pewien priorytet zależny od tego czy niepełnosprawny itp
+Podczas każdej zmiany położenia podczas symulacji należy upewnić się czy po przejściu nie dojdzie do kolizji z innymi uczestnikami ruchu czy przeszkodami. W przypadku kolizji należy sprawdzić jej typ~i dostosować do niej zachowanie jednostki. Do kolizji może dość w przypadku, kiedy dwoje pieszych~w następnym kroku mają przejść na to samo miejsce lub kiedy zamieniają się miejscami. Każda~z kolizji wymaga podjęcia innych kroków, aby jej uniknąć. Po uniknięciu kolizji pieszy powinien powrócić do swojej pierwotnej ścieżki ruchu. Każdy z pieszych ma także pewien priorytet zależny od takich cech jak niepełnosprawność itp.
 
-Zgodnie z pracą \cite{Collision} możemy wyróżnić trzy typy kolizji:
+Zgodnie z pracą Charif Foudil \cite{Collision} możemy wyróżnić trzy typy kolizji:
 
 \subsection{Kolizja czołowa}
 
-Występuje w przypadku kiedy dwoje pieszych idą prosto na siebie. Na samym początku należy określić czy piesi kolidują ze sobą po lewej czy po prawej stronie (rzadko zdarza się ruch dokładnie na wprost siebie). Piesi preferują takie uniknięcie kolizji, jakie pozwoli im na jak najmniejsze odchylenie od ich, wyznaczonej wcześniej, trasy. Na bazie obserwacji możemy wyróżnić trzy możliwości uniknięcia takiej kolizji:
+Występuje w przypadku, kiedy dwoje pieszych idzie prosto na siebie. Na samym początku należy określić, czy piesi kolidują ze sobą po lewej czy po prawej stronie (rzadko zdarza się ruch dokładnie na wprost siebie). Piesi preferują takie uniknięcie kolizji, jakie pozwoli im na jak najmniejsze odchylenie od ich wyznaczonej wcześniej trasy. Możemy wyróżnić trzy możliwości uniknięcia takiej kolizji:
 
 \begin{itemize}
 \item zmianę kierunku ruchu
 \item zmianę prędkości
-\item zmianę zarówno kierunku jak i prędkości
+\item zmianę zarówno kierunku, jak i prędkości
 \end{itemize}
 
-Jeśli żadne z tych nie zdziała to pieszy zwyczajnie się zatrzyma. Pozwoli to na przejście innego pieszego, który ominie tego co stoi a ten co stoi pójdzie sobie potem dalej.
+Jeśli żaden ze sposobów nie zadziała, pieszy zatrzyma się, przepuszczając drugiego uczestnika ruchu, a następnie ruszy wyznaczoną wcześniej trasą.
 
 
 \begin{figure}
@@ -62,7 +70,7 @@ Kolizja, której rozwiązanie jest podobne jak dla \textit{kolizji czołowej}.
 
 \subsection{Kolizja tylna}
 
-Ma miejsce kiedy jeden z kolidujących pieszych jest ze innym pieszym, ale ma wyższą prędkość ruchu, więc jaskoczy na niego. W tym przypadku są dwie drogi rozwiązania
+Ma miejsc, gdy pieszy porusza się z większą prędkością niż inny uczestnik ruchu pokonujący przed nim tę samą drogę. W tym przypadku pieszy o większej prędkości może:
 
 \begin{itemize}
 \item zwolnić do takiej samej prędkości jak pieszy z przodu i iść za nim

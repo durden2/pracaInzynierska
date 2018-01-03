@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.25)  21 DEC 2017 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  27 DEC 2017 15:57
 entering extended mode
 **./praca.tex
 (praca.tex
@@ -101,7 +101,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -114,11 +114,11 @@ s
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip52
@@ -130,7 +130,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip54
@@ -170,10 +170,10 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip86
 \cfttabnumwidth=\skip87
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen118
@@ -186,7 +186,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count94
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count95
 \c@subtable=\count96
@@ -568,7 +568,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))))
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\block.tss"
+(C:\Users\Michal\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\block.tss
 File: block.tss 2016/03/15
 )
 \descriptiondashgap=\skip101
@@ -2052,16 +2052,6 @@ Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7
@@ -2069,12 +2059,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-
-LaTeX Warning: Reference `cha:wyznaczenieSciezki' on page 8 undefined on input 
-line 27.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
+Underfull \hbox (badness 10000) in paragraph at lines 24--31
 
  []
 
@@ -2100,31 +2085,44 @@ Rozdzia\l  2.
 
 ]
 Rozdzia\l  3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-LaTeX Warning: Citation 'modelowanieDynamikiTlumu' on page 14 undefined on inpu
-t line 25.
+Underfull \vbox (badness 1400) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+[14]
+
+LaTeX Warning: Citation 'FormalizacjaAutomat\IeC {\'o}w' on page 15 undefined o
+n input line 32.
 
 
-LaTeX Warning: Citation 'FormalizacjaAutomat\IeC {\'o}w' on page 14 undefined o
-n input line 27.
+Underfull \hbox (badness 3849) in paragraph at lines 32--33
+[]\T1/ptm/m/n/12 Dla stwo-rze-nia mo-deli mi-kro-sko-po-wych u»ywa si¦ po-sze-r
+zo-nych au-to-ma-tów ko-
+ []
 
-)
-Underfull \vbox (badness 1226) has occurred while \output is active []
 
- [14]
-[15]
+Underfull \hbox (badness 4120) in paragraph at lines 32--33
+\T1/ptm/m/n/12 stety jed-no-rod-no±¢ tej me-tody unie-mo»-li-wia mo-de-lo-wa-ni
+e bar-dziej skom-pli-ko-wa-nych
+ []
+
+) [15]
 \openout2 = `chapter5.aux'.
 
  (chapter5.tex [16
@@ -2133,47 +2131,74 @@ Underfull \vbox (badness 1226) has occurred while \output is active []
 
 ]
 Rozdzia\l  4.
-) [17]
+
+Package caption Warning: \label without proper reference on input line 20.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:djikstra' on page 17 undefined on input line 17.
+
+
+Package caption Warning: \label without proper reference on input line 27.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:astar' on page 17 undefined on input line 17.
+
+[17] <img/djikstra.png, id=65, 536.60475pt x 582.37575pt>
+File: img/djikstra.png Graphic file (type png)
+
+<use img/djikstra.png>
+Package pdftex.def Info: img/djikstra.png used on input line 22.
+(pdftex.def)             Requested size: 227.62206pt x 247.03987pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
+ <img/astar.png, id=67, 536.0025pt x 584.1825pt>
+File: img/astar.png Graphic file (type png)
+
+<use img/astar.png>
+Package pdftex.def Info: img/astar.png used on input line 29.
+(pdftex.def)             Requested size: 227.62206pt x 248.08263pt.
+) [18 <./img/djikstra.png>] [19 <./img/astar.png>]
 \openout2 = `chapter3.aux'.
 
- (chapter3.tex [18
+
+(chapter3.tex [20
 
 
 
 ]
 Rozdzia\l  5.
 Package epstopdf Info: Source file: <img/process.eps>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 17:17:19
 (epstopdf)                    size: 1269150 bytes
 (epstopdf)             Output file: <img/process-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 17:54:22
 (epstopdf)                    size: 17673 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/process-eps-converted-t
 o.pdf img/process.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<img/process-eps-converted-to.pdf, id=68, 599.23875pt x 840.13875pt>
+<img/process-eps-converted-to.pdf, id=80, 599.23875pt x 840.13875pt>
 File: img/process-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/process-eps-converted-to.pdf>
 Package pdftex.def Info: img/process-eps-converted-to.pdf used on input line 8.
 
 (pdftex.def)             Requested size: 227.62206pt x 319.12785pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
- [19] [20 <./img/process-eps-converted-to.pdf>]
+ [21] [22 <./img/process-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/desiredforce2.eps>
-(epstopdf)                    date: 2017-12-21 10:20:12
+(epstopdf)                    date: 2017-12-22 14:14:09
 (epstopdf)                    size: 1295034 bytes
 (epstopdf)             Output file: <img/desiredforce2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-21 12:24:51
+(epstopdf)                    date: 2017-12-22 14:14:09
 (epstopdf)                    size: 17940 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/desiredforce2-eps-conve
 rted-to.pdf img/desiredforce2.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/desiredforce2-eps-converted-to.pdf, id=89, 291.0875pt x 205.76875pt>
+<img/desiredforce2-eps-converted-to.pdf, id=100, 291.0875pt x 205.76875pt>
 File: img/desiredforce2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/desiredforce2-eps-converted-to.pdf>
@@ -2181,27 +2206,27 @@ Package pdftex.def Info: img/desiredforce2-eps-converted-to.pdf used on input l
 ine 47.
 (pdftex.def)             Requested size: 227.62206pt x 160.90714pt.
 Package epstopdf Info: Source file: <img/desiredforce.eps>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 13:36:23
 (epstopdf)                    size: 831722 bytes
 (epstopdf)             Output file: <img/desiredforce-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 13:37:00
 (epstopdf)                    size: 15501 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/desiredforce-eps-conver
 ted-to.pdf img/desiredforce.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/desiredforce-eps-converted-to.pdf, id=90, 443.6575pt x 374.39874pt>
+<img/desiredforce-eps-converted-to.pdf, id=101, 443.6575pt x 374.39874pt>
 File: img/desiredforce-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/desiredforce-eps-converted-to.pdf>
 Package pdftex.def Info: img/desiredforce-eps-converted-to.pdf used on input li
 ne 53.
-(pdftex.def)             Requested size: 227.62206pt x 192.0834pt.
- [21 <./img/desiredforce2-eps-converted-to.pdf>] [22 <./img/desiredforce-eps-co
+(pdftex.def)             Requested size: 318.66948pt x 268.92133pt.
+ [23 <./img/desiredforce2-eps-converted-to.pdf>] [24 <./img/desiredforce-eps-co
 nverted-to.pdf>]
 ! Undefined control sequence.
-l.98 ...kg(r_{ij} - d_{ij}) \vec{n}_{ij} + \kappag
+l.100 ...kg(r_{ij} - d_{ij})\vec{n}_{ij} + \kappag
                                                    (r_{ij} - d_{ij}) \Delta ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2209,107 +2234,151 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[23]) [24]
+
+LaTeX Warning: Command \' invalid in math mode on input line 112.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 113.
+
+Missing character: There is no ± in font cmmi12!
+Missing character: There is no ± in font cmmi12!
+[25]) [26]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Rozdzia\l  6.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25
+[27
 
 
 
-]
+] <img/line.png, id=145, 532.99126pt x 212.29312pt>
+File: img/line.png Graphic file (type png)
+ <use img/line.png>
+Package pdftex.def Info: img/line.png used on input line 31.
+(pdftex.def)             Requested size: 318.66948pt x 126.92982pt.
+
+[28 <./img/line.png>]
 Package epstopdf Info: Source file: <img/kolizjaczolowa.eps>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 19:35:46
 (epstopdf)                    size: 530834 bytes
 (epstopdf)             Output file: <img/kolizjaczolowa-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 19:36:16
 (epstopdf)                    size: 17102 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/kolizjaczolowa-eps-conv
 erted-to.pdf img/kolizjaczolowa.eps>
-(epstopdf)             \includegraphics on input line 49.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/kolizjaczolowa-eps-converted-to.pdf, id=133, 218.8175pt x 58.2175pt>
+<img/kolizjaczolowa-eps-converted-to.pdf, id=150, 218.8175pt x 58.2175pt>
 File: img/kolizjaczolowa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/kolizjaczolowa-eps-converted-to.pdf>
 Package pdftex.def Info: img/kolizjaczolowa-eps-converted-to.pdf used on input 
-line 49.
+line 57.
 (pdftex.def)             Requested size: 182.09486pt x 48.44753pt.
 Package epstopdf Info: Source file: <img/kolizjaboczna.eps>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 19:35:58
 (epstopdf)                    size: 551382 bytes
 (epstopdf)             Output file: <img/kolizjaboczna-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 19:36:16
 (epstopdf)                    size: 19544 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/kolizjaboczna-eps-conve
 rted-to.pdf img/kolizjaboczna.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/kolizjaboczna-eps-converted-to.pdf, id=134, 174.6525pt x 106.3975pt>
+<img/kolizjaboczna-eps-converted-to.pdf, id=151, 174.6525pt x 106.3975pt>
 File: img/kolizjaboczna-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/kolizjaboczna-eps-converted-to.pdf>
 Package pdftex.def Info: img/kolizjaboczna-eps-converted-to.pdf used on input l
-ine 59.
+ine 67.
 (pdftex.def)             Requested size: 182.09486pt x 110.93814pt.
- [26 <./img/kolizjaczolowa-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/kolizjatylna.eps>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 19:36:05
 (epstopdf)                    size: 516626 bytes
 (epstopdf)             Output file: <img/kolizjatylna-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-12-11 19:43:56
+(epstopdf)                    date: 2017-12-09 19:36:17
 (epstopdf)                    size: 14955 bytes
 (epstopdf)             Command: <epstopdf --outfile=img/kolizjatylna-eps-conver
 ted-to.pdf img/kolizjatylna.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/kolizjatylna-eps-converted-to.pdf, id=143, 157.58875pt x 58.2175pt>
+<img/kolizjatylna-eps-converted-to.pdf, id=152, 157.58875pt x 58.2175pt>
 File: img/kolizjatylna-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/kolizjatylna-eps-converted-to.pdf>
 Package pdftex.def Info: img/kolizjatylna-eps-converted-to.pdf used on input li
-ne 74.
+ne 82.
 (pdftex.def)             Requested size: 182.09486pt x 67.27472pt.
-) [27 <./img/kolizjaboczna-eps-converted-to.pdf> <./img/kolizjatylna-eps-conver
-ted-to.pdf>]
+) [29 <./img/kolizjaczolowa-eps-converted-to.pdf> <./img/kolizjaboczna-eps-conv
+erted-to.pdf>] [30 <./img/kolizjatylna-eps-converted-to.pdf>]
 \openout2 = `srodowisko.aux'.
 
  (srodowisko.tex
-[28
-
-
-
-]
 Rozdzia\l  7.
-) [29]
+
+Package caption Warning: \label without proper reference on input line 8.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `figure:siatka' on page 31 undefined on input line 4.
+
+
+Package caption Warning: \label without proper reference on input line 8.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `figure:siatka' on page 31 undefined on input line 4.
+
+Package epstopdf Info: Source file: <img/sasiedztwo.eps>
+(epstopdf)                    date: 2017-12-23 12:52:00
+(epstopdf)                    size: 664278 bytes
+(epstopdf)             Output file: <img/sasiedztwo-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-12-23 13:01:25
+(epstopdf)                    size: 13262 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/sasiedztwo-eps-converte
+d-to.pdf img/sasiedztwo.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+<img/sasiedztwo-eps-converted-to.pdf, id=171, 279.0425pt x 279.0425pt>
+File: img/sasiedztwo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/sasiedztwo-eps-converted-to.pdf>
+Package pdftex.def Info: img/sasiedztwo-eps-converted-to.pdf used on input line
+ 10.
+(pdftex.def)             Requested size: 182.09486pt x 182.0993pt.
+) [31
+
+
+
+] [32 <./img/sasiedztwo-eps-converted-to.pdf>]
 \openout2 = `testy.aux'.
 
- (testy.tex [30
+ (testy.tex
+Rozdzia\l  8.
+) [33
 
 
 
 ]
-Rozdzia\l  8.
-) [31]
 \openout2 = `podsumowanie.aux'.
 
- (podsumowanie.tex [32
+ (podsumowanie.tex [34
 
 
 
 ]
 Rozdzia\l  9.
-) [33] [34
+)
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [35]
+[36] [37
 
 
-] [35] (praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux)
+] [38] (praca.aux (chapter1.aux) (wykazOznaczen.aux) (chapter2.aux)
 (chapter5.aux) (chapter3.aux) (chapter4.aux) (srodowisko.aux) (testy.aux)
 (podsumowanie.aux))
 
@@ -2325,13 +2394,13 @@ Package logreq Info: Writing requests to 'praca.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46641 strings out of 493323
- 1044288 string characters out of 3139065
- 1369784 words of memory out of 3000000
- 49402 multiletter control sequences out of 15000+200000
+ 46662 strings out of 493323
+ 1045179 string characters out of 3139063
+ 1371901 words of memory out of 3000000
+ 49419 multiletter control sequences out of 15000+200000
  603389 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,100p,10408b,1786s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,12n,100p,10408b,1824s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -2346,9 +2415,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2
 mb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (34 pages, 395327 bytes).
+Output written on praca.pdf (37 pages, 461538 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
+ 253 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

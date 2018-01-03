@@ -56,25 +56,6 @@
     \field{year}{2017}
   \endentry
 
-  \entry{metodologiaZachowan}{article}{}
-    \name{author}{1}{}{%
-      {{hash=DKRBR}{%
-         family={Drogowego},
-         familyi={D\bibinitperiod},
-         given={Krajowa Rada Bezpieczeństwa\bibnamedelima Ruchu},
-         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod
-  B\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DKRBR1}
-    \strng{fullhash}{DKRBR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Metodologia systematycznych badań zachowań pieszych i
-  relacji pieszykierowca wraz z przeprowadzeniem badań pilotażowych}
-    \field{year}{2015}
-  \endentry
-
   \entry{AMSFMfPBSaSC}{article}{}
     \name{author}{1}{}{%
       {{hash=WZPCHN}{%
@@ -95,6 +76,25 @@
     \field{journaltitle}{Department od Civil Engineering, Nagoya University,
   Japan}
     \field{year}{2014}
+  \endentry
+
+  \entry{metodologiaZachowan}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DKRBR}{%
+         family={Drogowego},
+         familyi={D\bibinitperiod},
+         given={Krajowa Rada Bezpieczeństwa\bibnamedelima Ruchu},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod
+  B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DKRBR1}
+    \strng{fullhash}{DKRBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Metodologia systematycznych badań zachowań pieszych i
+  relacji pieszykierowca wraz z przeprowadzeniem badań pilotażowych}
+    \field{year}{2015}
   \endentry
 
   \entry{Asfemwle}{article}{}
@@ -210,6 +210,67 @@
     \field{year}{2009}
   \endentry
 
+  \entry{modelowanieDynamikiTlumu}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WJ}{%
+         family={Wąs},
+         familyi={W\bibinitperiod},
+         given={Jarosław},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ2}
+    \strng{fullhash}{WJ2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Modelowanie Dynamiki Tłumu}
+    \field{journaltitle}{Akadamia Górniczo-Hutnicza, wydział EAIiE, Katedra
+  Automatyki}
+    \field{year}{2011}
+  \endentry
+
+  \entry{searchpathsimplementations}{online}{}
+    \name{author}{1}{}{%
+      {{hash=WJ}{%
+         family={Weatherell},
+         familyi={W\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ1}
+    \strng{fullhash}{WJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Java Algorithms Implementation}
+    \verb{url}
+    \verb https://github.com/phishman3579/java-algorithms-implementation
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{HeBuAjTw}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HDJAWTBL}{%
+         family={Helbing\bibnamedelima D.},
+         familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+         suffix={Buzna\bibnamedelima L},
+         suffixi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Johansson A Werner\bibnamedelima T},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod
+  W\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDBLJAWT1}
+    \strng{fullhash}{HDBLJAWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Self-Organized Pedestrian Crowd Dynamics: Experiments,
+  Simulations, and Design Solutions}
+    \field{journaltitle}{Transportation Science}
+    \field{year}{2005}
+  \endentry
+
   \entry{GuideCrowdDynViaModifiedSocialForceModel}{article}{}
     \name{author}{5}{}{%
       {{hash=YX}{%
@@ -268,28 +329,6 @@
     \field{labeltitlesource}{title}
     \field{title}{Waiting Pedestrians in Social Force Model}
     \field{year}{2015}
-  \endentry
-
-  \entry{HeBuAjTw}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HDJAWTBL}{%
-         family={Helbing\bibnamedelima D.},
-         familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
-         suffix={Buzna\bibnamedelima L},
-         suffixi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
-         given={Johansson A Werner\bibnamedelima T},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod
-  W\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HDBLJAWT1}
-    \strng{fullhash}{HDBLJAWT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Self-Organized Pedestrian Crowd Dynamics: Experiments,
-  Simulations, and Design Solutions}
-    \field{journaltitle}{Transportation Science}
-    \field{year}{2005}
   \endentry
 
   \entry{Collision}{article}{}
