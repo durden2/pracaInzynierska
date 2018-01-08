@@ -5,7 +5,7 @@ Model Social Force \cite{SforceModelForPedDyn}, powszechnie uważany za najważn
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\textwidth]{process.eps}
+\includegraphics[width=1\textwidth]{process.eps}
 \caption{Schemat podejmowania decyzji przez pieszego, opracowanie własne na bazie \cite{GuideCrowdDynViaModifiedSocialForceModel}}
 \end{figure}
 
@@ -69,7 +69,7 @@ gdzie
 	
 Jest to tzw. \textit{desired speed} czyli charakterystyczna prędkość dla jednostki, która kierują danego pieszego $i$ do osiągnięcia celu.
 
-Zazwyczaj prędkość pieszego przyjmuje wartość około $1.34 \frac{m}{s^{2}}$ z odchyleniem standardowym $0.26 \frac{m}{s^{2}}$ \cite{HeBuAjTw}.
+Zazwyczaj prędkość pieszego przyjmuje wartość około $1.34 \frac{m}{s}$ \cite{transporttechnikDerFussganger} z odchyleniem standardowym $0.26 \frac{m}{s}$ \cite{HeBuAjTw}.
 
 \section{Interakcja pomiędzy pieszymi}
 \label{sec:interactionBetweenPedestrians}
@@ -80,7 +80,7 @@ Naturalną reakcją na zbliżanie się do innych uczestników ruchu jest uczucie
 \label{eq:sumaSil}
 \vec{f_{ij}} = \vec{f}_{ij}^{s} + \vec{f}_{ij}^{p}
 \end{equation}
-Pierwsza z nich $\vec{f_{ij}^{s}}$ (wzór \ref{eq:socioSila}) związana jest z naturalnym ludzkim odruchem utrzymywania dystansu od drugiego człowieka. Przyjmuje ona wartość maksymalną, gdy odległość między dwoma pieszymi $d_{ij}$ maleje, a wartość mniejszą w przypadku oddalania się pieszych.
+Pierwsza z nich $\vec{f_{ij}^{s}}$ (wzór \ref{eq:socioSila}) związana jest z naturalnym ludzkim odruchem utrzymywania odpowiednich odległości pomiędzy osobami w poruszającej się grupie ludzi. Przyjmuje ona wartość maksymalną, gdy odległość między dwoma pieszymi $d_{ij}$ maleje, a wartość mniejszą w przypadku oddalania się pieszych.
 
 \begin{equation}
 \label{eq:socioSila}
@@ -89,7 +89,7 @@ Pierwsza z nich $\vec{f_{ij}^{s}}$ (wzór \ref{eq:socioSila}) związana jest z n
 
 gdzie
 \begin{eqwhere}[2cm]
-	\item[$A_{i}$] Moc siły
+	\item[$A_{i}$] intensywność działania siły
 	\item[$B_{i}$] Dystans działania siły
 	\item[$\vec{n_{ij}}$] wektor jednostkowy o początku w centrum strefy prywatnej pieszego $i$ a końcu~w centrum tej strefy pieszego $j$
 \end{eqwhere}
@@ -109,8 +109,11 @@ gdzie
 \end{eqwhere}
 
 \begin{equation}
-g(x) = \left \{ 0, jeśli x < 0, \\
-x jeśli x \geq 0. \right \}
+g(x) = \left\{ 
+\begin{array}{c l}	
+     0, & dla x < 0,\\
+     x, & dla x \geq 0.
+\end{array}\right.
 \end{equation}
 
 Warto zaznaczyć, że druga z sił przyjmuje pewne wartości nawet w przypadku, kiedy dwoje pieszych znajduje się daleko od siebie. Oznacza to, że piesi zawsze starają się utrzymać między sobą dystans \cite{relativeVelocity}.
@@ -125,4 +128,4 @@ Największą z zalet opisywanego modelu jest precyzja odwzorowania zachowań mik
 \item \textit{Szybciej znaczy wolniej}, wraz ze wzrostem prędkości jednostek, rożnie zatłoczenie miejsc, w których się poruszają (takich jak obszary wokół wyjścia z budynków), co skutkuje spowolnieniem ruchu,
 \item formowanie strug, czyli skłonność pieszych do poruszania się w liniach. Zachowanie to może być zauważone w szczególności, kiedy dwie grupy ludzi poruszają się w przeciwnych kierunkach.
 \end{itemize}
-Pomimo licznych zalet, model nie jest pozbawiony wad. Pierwszą z nich jest mała wydajność obliczeniowa oraz trudności z odwzorowaniem niektórych sytuacji. Mnogość sił, które są obliczane, w przemnożeniu poprzez ilość pieszych powoduje wysoki narzut na ilość obliczeń. W~tym miejscu dużą konkurencją stają się automaty komórkowe, które nie wymagają tak skomplikowanych obliczeń, dając jednocześnie szerokie spektrum odwzorowania zróżnicowanych zachowań ruchu pieszych.
+Pomimo licznych zalet, model nie jest pozbawiony wad. Pierwszą z nich jest mała wydajność obliczeniowa oraz trudności z odwzorowaniem niektórych sytuacji. Mnogość sił, które są obliczane, w przemnożeniu poprzez ilość pieszych powoduje wysoki narzut na ilość obliczeń. W~tym miejscu dużą konkurencją stają się automaty komórkowe, które nie wymagają tak skomplikowanych obliczeń, dając jednocześnie szerokie spektrum odwzorowania zróżnicowanych zachowań ruchu pieszych. Drugą z wad są oscylacje w jakie wpada pieszy, kiedy brakuje mu swobody przemieszczania.

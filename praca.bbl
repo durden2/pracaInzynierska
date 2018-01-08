@@ -157,6 +157,60 @@
     \field{year}{1995}
   \endentry
 
+  \entry{mooreslaw}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Moore's law}
+    \verb{url}
+    \verb https://pl.wikipedia.org/wiki/Prawo_Moore%E2%80%99a
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{simulationLimits}{online}{}
+    \name{author}{1}{}{%
+      {{hash=CK}{%
+         family={Coale},
+         familyi={C\bibinitperiod},
+         given={Kristi},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CK1}
+    \strng{fullhash}{CK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Simulation Has Its Limits}
+    \verb{url}
+    \verb https://www.wired.com/1997/07/simulation-has-its-limits/
+    \endverb
+    \field{year}{1997}
+  \endentry
+
+  \entry{simulationInGeneral}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Issues Regarding Computer Modeling and Simulation}
+    \verb{url}
+    \verb https://ethics.csc.ncsu.edu/old/04_97/f97/13.html#Limitations
+    \endverb
+  \endentry
+
+  \entry{simulationChallenges}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BR}{%
+         family={Balu},
+         familyi={B\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \strng{namehash}{BR1}
+    \strng{fullhash}{BR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Challenges in the Application of Computer Simulations Models
+  for Design Optimisation}
+  \endentry
+
   \entry{relativeVelocity}{article}{}
     \name{author}{4}{}{%
       {{hash=GY}{%
@@ -329,6 +383,22 @@
     \field{labeltitlesource}{title}
     \field{title}{Waiting Pedestrians in Social Force Model}
     \field{year}{2015}
+  \endentry
+
+  \entry{transporttechnikDerFussganger}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WU}{%
+         family={Weidmann},
+         familyi={W\bibinitperiod},
+         given={Ulrich},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WU1}
+    \strng{fullhash}{WU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Transporttechnik der Fussgänger}
   \endentry
 
   \entry{Collision}{article}{}

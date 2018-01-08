@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {5.2}Interakcja pomi\IeC {\k e}dzy pieszymi}{24}
 \contentsline {section}{\numberline {5.3}Zalety i wady Modelu Social Force}{26}
 \contentsline {chapter}{\numberline {6}Charakterystyka ruchu pieszych}{27}
-\contentsline {section}{\numberline {6.1}Points of intrest}{27}
+\contentsline {section}{\numberline {6.1}Points of interest}{27}
 \contentsline {section}{\numberline {6.2}Strefa prywatna}{27}
 \contentsline {section}{\numberline {6.3}Czas relaksacji}{27}
 \contentsline {section}{\numberline {6.4}Czekaj\IeC {\k a}cy piesi}{27}
@@ -26,9 +26,11 @@
 \contentsline {subsection}{\numberline {6.6.2}Kolizja boczna}{29}
 \contentsline {subsection}{\numberline {6.6.3}Kolizja tylna}{29}
 \contentsline {chapter}{\numberline {7}Schematy dzia\IeC {\l }ania systemu}{31}
-\contentsline {section}{\numberline {7.1}Przyj\IeC {\k e}te parametry}{31}
-\contentsline {chapter}{\numberline {8}Testy}{33}
-\contentsline {chapter}{\numberline {9}Podsumowanie}{35}
-\contentsline {section}{\numberline {9.1}Wnioski}{35}
-\contentsline {section}{\numberline {9.2}Napotkane problemy}{35}
-\contentsline {section}{\numberline {9.3}Kierunki dalszych prac}{36}
+\contentsline {section}{\numberline {7.1}Przyj\IeC {\k e}te parametry}{32}
+\contentsline {chapter}{\numberline {8}Testy}{35}
+\contentsline {section}{\numberline {8.1}Wyniki}{35}
+\contentsline {chapter}{\numberline {9}Podsumowanie}{45}
+\contentsline {section}{\numberline {9.1}Potencjalne kierunki dalszych prac}{45}
+\contentsline {section}{\numberline {9.2}Wnioski}{45}
+\contentsline {section}{\numberline {9.3}Napotkane problemy}{45}
+\contentsline {chapter}{\numberline {10}A. Zbiorcze por\IeC {\'o}wnanie test\IeC {\'o}w}{3}
