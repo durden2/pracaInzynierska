@@ -17,6 +17,7 @@ Wykorzystany w pracy model \cite{GuideCrowdDynViaModifiedSocialForceModel}, bazu
 
 Siła działająca na każdego z pieszych definiuje się jako:
 
+\begin{samepage}
 \begin{equation}
 m_{i} \frac{d\vec{v_{i}}(t)}{dt} = \vec{f_{i}^{0}} + \sum_{j(\neq i)} \vec{f_{ij}} + \sum _{w} \vec{f_{iw}}
 \end{equation}
@@ -26,6 +27,7 @@ gdzie
 	\item[$m_{i}$] masa pieszego $i$
 	\item[$\vec{v}_{i}(t)$] aktualna prędkość
 \end{eqwhere}
+\end{samepage}
 
 \section{Desired force}
 \label{sec:desiredForce}
@@ -54,7 +56,7 @@ gdzie
 \caption{Diagram modelu Social Force, opracowanie własne na bazie \cite{GuideCrowdDynViaModifiedSocialForceModel}}
 \end{figure}
 
-W przypadku, kiedy ruch pieszego odbywa się bez przeszkód, porusza się on w kierunku pozycji celu~z preferowaną przez siebie prędkością, $\vec{v_{i}^{0}}$. Z powodu działania na pieszego sił~z otoczenia, obserwuje się dążenie pieszego do osiągnięcia preferowanej przez siebie prędkości w czasie relaksacji $\tau$.
+W przypadku, kiedy ruch pieszego odbywa się bez przeszkód, porusza się on w kierunku pozycji celu~z preferowaną przez siebie prędkością, $\vec{v_{i}^{0}}$. Z powodu działania na pieszego sił z~otoczenia, obserwuje się dążenie pieszego do osiągnięcia preferowanej przez siebie prędkości w czasie relaksacji $\tau$.
 
 \begin{equation}
 \vec{f}_{i}^{0} = m_{i} \frac{v_{i}^{0}(t) \vec{e_{i}^{0}} - \vec{v_{i}}(t)}{\tau}
@@ -90,8 +92,8 @@ Pierwsza z nich $\vec{f_{ij}^{s}}$ (wzór \ref{eq:socioSila}) związana jest z n
 gdzie
 \begin{eqwhere}[2cm]
 	\item[$A_{i}$] intensywność działania siły
-	\item[$B_{i}$] Dystans działania siły
-	\item[$\vec{n_{ij}}$] wektor jednostkowy o początku w centrum strefy prywatnej pieszego $i$ a końcu~w centrum tej strefy pieszego $j$
+	\item[$B_{i}$] dystans działania siły
+	\item[$\vec{n_{ij}}$] wektor jednostkowy o początku w~centrum strefy prywatnej pieszego $i$ a końcu w~centrum tej strefy pieszego $j$
 \end{eqwhere}
 
 Druga z sił $\vec{f_{ij}^{p}}$ (wzór \ref{eq:silaFizyczna}) oddziałuje na pieszych, kiedy dystans pomiędzy dwoma pieszymi, $d_{ij}$ jest mniejszy od sumy promieni ich stref prywatnych $r_{ij} = r_{i} + r_{j}$. Siła ta składa się z \textit{body force}, $\vec{f} _{ij}^{p_{1}}$ oraz \textit{sliding friction force}, $\vec{f} _{ij}^{p_{2}}$.
@@ -102,17 +104,17 @@ Druga z sił $\vec{f_{ij}^{p}}$ (wzór \ref{eq:silaFizyczna}) oddziałuje na pie
 
 gdzie
 \begin{eqwhere}[2cm]
-	\item[$k$] body compression coefficient
-	\item[$\kappa$] Coeficient of sliding friction
-	\item[$\vec{n}_{ij}$] wektor jednostkowy o początku w pozycji pieszego $i$ a końcu w pozycji pieszego $j$
+	\item[$k$] współczynnik kompresji (body compression coefficient)
+	\item[$\kappa$] współczynnik tarcia (coefficient of sliding friction)
+	\item[$\vec{n}_{ij}$] wektor jednostkowy o początku w pozycji pieszego $i$, a końcu w pozycji pieszego $j$
 	\item[$\Delta v_{ij}^{t} \cdot \vec{t}_{ij}$] zmiana prędkości wzdłuż stycznej do eliptycznego pola strefy prywatnej
 \end{eqwhere}
 
 \begin{equation}
 g(x) = \left\{ 
 \begin{array}{c l}	
-     0, & dla x < 0,\\
-     x, & dla x \geq 0.
+     0, & dla \hspace{1em} x < 0,\\
+     x, & dla \hspace{1em} x \geq 0.
 \end{array}\right.
 \end{equation}
 
@@ -121,11 +123,11 @@ Warto zaznaczyć, że druga z sił przyjmuje pewne wartości nawet w przypadku, 
 
 \section{Zalety i wady Modelu Social Force}
 
-Największą z zalet opisywanego modelu jest precyzja odwzorowania zachowań mikroskopowych oddziaływań pomiędzy pieszymi oraz otaczającą ich rzeczywistością. SFM uwzględnia wiele powszechnych tendencji, takich jak:
+Największą z zalet opisywanego modelu jest precyzja odwzorowania mikroskopowych oddziaływań pomiędzy pieszymi oraz otaczającą ich rzeczywistością. SFM uwzględnia wiele powszechnych tendencji, takich jak:
 
 \begin{itemize}
-\item Unikanie kontaktu z przeszkodami oraz innymi uczestnikami ruchu przed dojściem do kolizji,
-\item \textit{Szybciej znaczy wolniej}, wraz ze wzrostem prędkości jednostek, rożnie zatłoczenie miejsc, w których się poruszają (takich jak obszary wokół wyjścia z budynków), co skutkuje spowolnieniem ruchu,
+\item unikanie kontaktu z przeszkodami oraz innymi uczestnikami ruchu przed dojściem do kolizji,
+\item \textit{Szybciej znaczy wolniej}, wraz ze wzrostem prędkości jednostek, rośnie zatłoczenie miejsc, w których się poruszają (takich jak obszary wokół wyjścia z budynków), co skutkuje spowolnieniem ruchu,
 \item formowanie strug, czyli skłonność pieszych do poruszania się w liniach. Zachowanie to może być zauważone w szczególności, kiedy dwie grupy ludzi poruszają się w przeciwnych kierunkach.
 \end{itemize}
-Pomimo licznych zalet, model nie jest pozbawiony wad. Pierwszą z nich jest mała wydajność obliczeniowa oraz trudności z odwzorowaniem niektórych sytuacji. Mnogość sił, które są obliczane, w przemnożeniu poprzez ilość pieszych powoduje wysoki narzut na ilość obliczeń. W~tym miejscu dużą konkurencją stają się automaty komórkowe, które nie wymagają tak skomplikowanych obliczeń, dając jednocześnie szerokie spektrum odwzorowania zróżnicowanych zachowań ruchu pieszych. Drugą z wad są oscylacje w jakie wpada pieszy, kiedy brakuje mu swobody przemieszczania.
+Pomimo licznych zalet, model nie jest pozbawiony wad. Pierwszą z nich jest mała wydajność obliczeniowa oraz trudności z odwzorowaniem niektórych sytuacji. Mnogość sił, które są obliczane, w przemnożeniu razy ilość pieszych powoduje wysoki narzut na ilość obliczeń. W~tym miejscu dużą konkurencją stają się automaty komórkowe, które nie wymagają tak skomplikowanych obliczeń, dając jednocześnie szerokie spektrum odwzorowania zróżnicowanych zachowań ruchu pieszych. Drugą z wad są oscylacje w jakie wpada pieszy, kiedy brakuje mu swobody przemieszczania \cite{oscillations}.

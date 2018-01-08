@@ -14,7 +14,7 @@ Dla każdego pieszego definiuje się opisaną wcześniej strefę prywatną. Im b
 \section{Czas relaksacji}
 \label{sec:czasRelaksacji}
 
-Piesi zmieniając kierunek swojej drogi potrzebują pewną (niewielką) ilość czasu na podjęcie decyzji. Z tego względu we wzorze został wprowadzony \textit{czas relaksacji}. Wartość przyjęta w symulacji to $0.5 sek$
+Piesi zmieniając kierunek swojej drogi potrzebują pewną (niewielką) ilość czasu na podjęcie decyzji. Z tego względu we wzorze został wprowadzony \textit{czas relaksacji}. Wartość przyjęta w~symulacji to $0.5 sek$
 
 \section{Czekający piesi}
 \label{sec:czekajacyPiesi}
@@ -32,12 +32,10 @@ Bazując na pracy \cite{HeBuAjTw} zakłada się, że piesi preferują ruch za in
 \caption{Formowanie strug, opracowanie \cite{HeBuAjTw}}
 \end{figure}
 
-\section{Unikanie Kolizji}
+\section{Unikanie kolizji}
 \label{sec:kolizje}
 
-Podczas każdej zmiany położenia podczas symulacji należy upewnić się czy po przejściu nie dojdzie do kolizji z innymi uczestnikami ruchu czy przeszkodami. W przypadku kolizji należy sprawdzić jej typ~i dostosować do niej zachowanie jednostki. Do kolizji może dość w przypadku, kiedy dwoje pieszych~w następnym kroku mają przejść na to samo miejsce lub kiedy zamieniają się miejscami. Każda~z kolizji wymaga podjęcia innych kroków, aby jej uniknąć. Po uniknięciu kolizji pieszy powinien powrócić do swojej pierwotnej ścieżki ruchu. Każdy z pieszych ma także pewien priorytet zależny od takich cech jak niepełnosprawność itp.
-
-Zgodnie z pracą Charif Foudil \cite{Collision} możemy wyróżnić trzy typy kolizji:
+Podczas każdej zmiany położenia podczas symulacji należy upewnić się czy po przejściu nie dojdzie do kolizji z innymi uczestnikami ruchu czy przeszkodami. W~przypadku kolizji należy sprawdzić jej typ i~dostosować do niej zachowanie jednostki. Do kolizji może dość w~przypadku, kiedy dwoje pieszych~w następnym kroku mają przejść na to samo miejsce lub kiedy zamieniają się miejscami. Każda~z kolizji wymaga podjęcia innych kroków, aby jej uniknąć. Po uniknięciu kolizji pieszy powinien powrócić do swojej pierwotnej ścieżki ruchu. Każdy z~pieszych ma także pewien priorytet zależny od takich cech jak niepełnosprawność itp. Zgodnie z pracą Charif Foudil \cite{Collision} możemy wyróżnić trzy typy kolizji.
 
 \subsection{Kolizja czołowa}
 

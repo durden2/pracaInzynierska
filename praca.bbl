@@ -78,6 +78,16 @@
     \field{year}{2014}
   \endentry
 
+  \entry{germanInstitute}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Energy, Transportation, Environment}
+    \verb{url}
+    \verb http://www.diw.de/en/diw_01.c.100363.en/research_advice/sustainabilit
+    \verb y/environment/transportation/energy/energy_transportation_environment
+    \verb .html
+    \endverb
+  \endentry
+
   \entry{metodologiaZachowan}{article}{}
     \name{author}{1}{}{%
       {{hash=DKRBR}{%
@@ -399,6 +409,23 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{Transporttechnik der Fussgänger}
+  \endentry
+
+  \entry{oscillations}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KT}{%
+         family={Kertz},
+         familyi={K\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KT1}
+    \strng{fullhash}{KT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{On oscillations in the Social Force Model}
+    \field{year}{2015}
   \endentry
 
   \entry{Collision}{article}{}

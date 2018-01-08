@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {1}Wprowadzenie}{7}
 \contentsline {section}{\numberline {1.1}Cele pracy}{8}
 \contentsline {section}{\numberline {1.2}Zawarto\IeC {\'s}\IeC {\'c} pracy}{8}
-\contentsline {section}{\numberline {1.3}Zastosowanie symulacji komputerowych}{9}
+\contentsline {section}{\numberline {1.3}Zastosowanie symulacji komputerowych}{8}
 \contentsline {section}{\numberline {1.4}Problemy zwi\IeC {\k a}zane z symulacjami komputerowymi}{9}
 \contentsline {chapter}{\numberline {2}Wykaz wa\IeC {\.z}niejszych oznacze\IeC {\'n}}{11}
 \contentsline {chapter}{\numberline {3}Wprowadzenie teoretyczne}{13}
@@ -11,26 +11,25 @@
 \contentsline {subsection}{\numberline {3.1.1}Modele makroskopowe oraz mikroskopowe}{13}
 \contentsline {subsection}{\numberline {3.1.2}Modele ci\IeC {\k a}g\IeC {\l }e i dyskretne}{14}
 \contentsline {chapter}{\numberline {4}Wyznaczenie \IeC {\'s}cie\IeC {\.z}ki}{17}
-\contentsline {chapter}{\numberline {5}Opis modelu Social Force}{21}
-\contentsline {section}{\numberline {5.1}Desired force}{23}
-\contentsline {section}{\numberline {5.2}Interakcja pomi\IeC {\k e}dzy pieszymi}{24}
-\contentsline {section}{\numberline {5.3}Zalety i wady Modelu Social Force}{26}
-\contentsline {chapter}{\numberline {6}Charakterystyka ruchu pieszych}{27}
-\contentsline {section}{\numberline {6.1}Points of interest}{27}
-\contentsline {section}{\numberline {6.2}Strefa prywatna}{27}
-\contentsline {section}{\numberline {6.3}Czas relaksacji}{27}
-\contentsline {section}{\numberline {6.4}Czekaj\IeC {\k a}cy piesi}{27}
-\contentsline {section}{\numberline {6.5}Formowanie strug}{28}
-\contentsline {section}{\numberline {6.6}Unikanie Kolizji}{28}
-\contentsline {subsection}{\numberline {6.6.1}Kolizja czo\IeC {\l }owa}{28}
-\contentsline {subsection}{\numberline {6.6.2}Kolizja boczna}{29}
-\contentsline {subsection}{\numberline {6.6.3}Kolizja tylna}{29}
-\contentsline {chapter}{\numberline {7}Schematy dzia\IeC {\l }ania systemu}{31}
+\contentsline {chapter}{\numberline {5}Opis modelu Social Force}{19}
+\contentsline {section}{\numberline {5.1}Desired force}{21}
+\contentsline {section}{\numberline {5.2}Interakcja pomi\IeC {\k e}dzy pieszymi}{22}
+\contentsline {section}{\numberline {5.3}Zalety i wady Modelu Social Force}{24}
+\contentsline {chapter}{\numberline {6}Charakterystyka ruchu pieszych}{25}
+\contentsline {section}{\numberline {6.1}Points of interest}{25}
+\contentsline {section}{\numberline {6.2}Strefa prywatna}{25}
+\contentsline {section}{\numberline {6.3}Czas relaksacji}{25}
+\contentsline {section}{\numberline {6.4}Czekaj\IeC {\k a}cy piesi}{25}
+\contentsline {section}{\numberline {6.5}Formowanie strug}{26}
+\contentsline {section}{\numberline {6.6}Unikanie kolizji}{26}
+\contentsline {subsection}{\numberline {6.6.1}Kolizja czo\IeC {\l }owa}{26}
+\contentsline {subsection}{\numberline {6.6.2}Kolizja boczna}{27}
+\contentsline {subsection}{\numberline {6.6.3}Kolizja tylna}{27}
+\contentsline {chapter}{\numberline {7}Schematy dzia\IeC {\l }ania systemu}{29}
 \contentsline {section}{\numberline {7.1}Przyj\IeC {\k e}te parametry}{32}
-\contentsline {chapter}{\numberline {8}Testy}{35}
-\contentsline {section}{\numberline {8.1}Wyniki}{35}
-\contentsline {chapter}{\numberline {9}Podsumowanie}{47}
-\contentsline {section}{\numberline {9.1}Potencjalne kierunki dalszych prac}{47}
-\contentsline {section}{\numberline {9.2}Wnioski}{47}
-\contentsline {section}{\numberline {9.3}Napotkane problemy}{48}
-\contentsline {chapter}{\numberline {10}A. Zbiorcze por\IeC {\'o}wnanie test\IeC {\'o}w}{3}
+\contentsline {chapter}{\numberline {8}Wyniki test\IeC {\'o}w}{33}
+\contentsline {chapter}{\numberline {9}Podsumowanie}{45}
+\contentsline {section}{\numberline {9.1}Potencjalne kierunki dalszych prac}{45}
+\contentsline {section}{\numberline {9.2}Wnioski}{45}
+\contentsline {section}{\numberline {9.3}Napotkane problemy}{46}
+\contentsline {chapter}{\numberline {10}Dodatek A. Zbiorcze por\IeC {\'o}wnanie test\IeC {\'o}w}{3}
