@@ -9,8 +9,15 @@ Temat symulacji jest bardzo rozbudowany może on zdaniem autora być kierunkiem 
 \section{Wnioski}
 \label{sec:wnioski}
 
-W pracy zostało...
+Celem niniejszej pracy inżynierskiej była symulacja dynamiki ruchu pieszych. Po porównaniu istniejących modeli wybrany został Model Social Force ze względu na swoje możliwości oraz zastosowanie do problemu postawionego w pracy. Z~sukcesem zaimplementowany został sam model, algorytm wyszukiwania najkrótszej ścieżki, moduł unikania kolizji oraz symulacja graficzna.\\
+%----------
+Symulacja pozwala na modyfikowanie wielu parametrów takich jak ilość pieszych, rodzaje map, zakresy prędkości czy parametry samego SFM. Dzięki takim możliwością można otrzymać bardzo ciekawe rezultaty i dogłębnie zbadać dynamikę ruchu pieszych.\\
+%---------
+Poprzez wielokrotne testy oraz odpowiedni dobór parametrów udało się uzyskać rezultaty odpowiadające rzeczywistości czego potwierdzeniem są przedstawione wykresy oraz ich zgodność z innymi symulacjami \citep{GuideCrowdDynViaModifiedSocialForceModel} i \citep{SocialForceSuwala}
 
+Symulacja nie jest wolna od wad. Czasami zdarzają się zakleszczenia oraz występuje problem wydajnościowy przy większej ilości pieszych (powyżej 90), co uniemożliwia płynne wyświetlanie symulacji. W przypadku większej ilości pieszych występuje także problem z oscylacjami jednakże jest to znany problem SFM \citep{oscillations}
+
+Stworzona symulacja może być świetną podstawą do dalszego rozwoju prac. Zdaniem autora aspektami wartymi szczególnie wartymi rozwinięcia jest implementacja różnych sytuacji takich jak ewakuacja pod wpływem pożaru lub innego zagrożenia oraz dalszy rozwój modelu do unikania kolizji pomiędzy pieszymi.
 
 \section{Napotkane problemy}
 

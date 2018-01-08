@@ -29,8 +29,8 @@
 \contentsline {section}{\numberline {7.1}Przyj\IeC {\k e}te parametry}{32}
 \contentsline {chapter}{\numberline {8}Testy}{35}
 \contentsline {section}{\numberline {8.1}Wyniki}{35}
-\contentsline {chapter}{\numberline {9}Podsumowanie}{45}
-\contentsline {section}{\numberline {9.1}Potencjalne kierunki dalszych prac}{45}
-\contentsline {section}{\numberline {9.2}Wnioski}{45}
-\contentsline {section}{\numberline {9.3}Napotkane problemy}{45}
+\contentsline {chapter}{\numberline {9}Podsumowanie}{47}
+\contentsline {section}{\numberline {9.1}Potencjalne kierunki dalszych prac}{47}
+\contentsline {section}{\numberline {9.2}Wnioski}{47}
+\contentsline {section}{\numberline {9.3}Napotkane problemy}{48}
 \contentsline {chapter}{\numberline {10}A. Zbiorcze por\IeC {\'o}wnanie test\IeC {\'o}w}{3}

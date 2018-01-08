@@ -429,5 +429,69 @@
     \field{title}{Path Finding and Collision Avoidance in Crowd Simulation}
     \field{year}{2009}
   \endentry
+
+  \entry{SocialForceSuwala}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Suwała},
+         familyi={S\bibinitperiod},
+         given={Michał},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Platforma do symulacji dynamiki ruchu pieszych oparta na
+  modelu Social Force}
+    \list{institution}{1}{%
+      {Akademia Górniczo-Hutnicza w Krakowie}%
+    }
+    \field{type}{mathesis}
+    \field{year}{2016}
+  \endentry
+
+  \entry{modelingFuzzyLogic}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZM}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Hairong},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WFY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Fei-Yue},
+         giveni={F\bibinitperiod-Y\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Quianling},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Xiaoxia},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZM+1}
+    \strng{fullhash}{ZMDHWFYWQYX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Modeling and simulation of pedestrian dynamical behaviour
+  base on a fuzzy logic approach}
+    \field{year}{2016}
+  \endentry
 \endsortlist
 \endinput
